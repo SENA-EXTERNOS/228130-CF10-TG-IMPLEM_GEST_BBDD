@@ -1,22 +1,40 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
+  BannerInterno(icono='fas fa-sitemap', titulo='Síntesis')
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+    .row 
+      .col-lg-10.col-12 
+        .titulo-sexto.color-acento-contenido.mb-5
+          h5 Implementación y gestión de bases de datos
+          br
+          span Síntesis: Funcionamiento de servidores y servicios
+      .col-lg-2.d-none.d-lg-block
+        img(
+          src='@/assets/template/logo-sena-naranja.svg',
+          height='60',
+          alt='alt'
+        )
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p.mb-5 Estimado aprendiz se le invita a revisar la temática abordada en el siguiente mapa mental diseñado.
 
+    .col-lg-10.col-12 
+        .titulo-sexto.color-acento-contenido.mb-5
+          h5 Figura 2.
+          br
+          i Síntesis servicios de red
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
-      .col-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+          img(src='@/assets/template/sintesis/s-1.jpg', alt='alt')
+      .col-lg-3
+        a.anexo.mb-4(
+          :href='obtenerLink("/downloads/sintesis.pdf")',
+          target='_blank'
+        )
           .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
+            img(src='@/assets/template/icono-pdf.svg')
           .anexo__texto
             p Anexo. Síntesis
-
 </template>
 
 <script>

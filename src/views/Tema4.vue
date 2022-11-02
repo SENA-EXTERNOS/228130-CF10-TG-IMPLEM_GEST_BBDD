@@ -23,7 +23,7 @@
 
     .row.justify-content-center.mb-5
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left")
+        .crd_hover_txt(data-aos="flip-left").h-21
           .crd_hover_txt--img
             figure
               img(src="@/assets/template/tema04/t4-i2.png", alt="alt")
@@ -32,7 +32,7 @@
             p.mb-0 Este se calcula basándose en datos históricos y tiempos de uso del activo; se puede saber aproximadamente la vida útil de un dispositivo con el fin si se necesita cambiar la pieza, también se puede determinar en qué tiempo se hace necesario hacer revisiones o mantenimientos programados, además se podrá determinar un estimado de duración de la pieza dependiendo del cómo se ejecuta en la maquina a utilizar, (Mago. M & Pachón, S, 2021).
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left")
+        .crd_hover_txt(data-aos="flip-left").h-21
           .crd_hover_txt--img
             figure
               img(src="@/assets/template/tema04/t4-i3.png", alt="alt")
@@ -41,7 +41,7 @@
             p.mb-0 Este es más fácil, requiere cierto nivel de análisis para obtener los plazos correctos, este tipo de mantenimiento gira en torno a controles y procedimientos que se realizan a intervalos regulares, cuando se acerca la fecha para el mantenimiento, se avisa al personal para que realice el mantenimiento, esto permite hacer cambio de partes con anticipación evitando las compras inmediatas, (Montoya. M, et al, 2020).
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left")
+        .crd_hover_txt(data-aos="flip-left").h-21
           .crd_hover_txt--img
             figure
               img(src="@/assets/template/tema04/t4-i4.png", alt="alt")
@@ -65,7 +65,7 @@
               img(
                 src='@/assets/template/tema04/t4-i5.svg',
                 alt='Texto que describa la imagen'
-              )
+              )(data-aos='zoom-in')
 
           .tarjeta.color-acento-beige.p-4(x='10%', y='70%', numero='+')
             p Los equipos, maquinarias pueden llegar a ser muy caros, por lo que un mantenimiento apropiado garantiza que la inversión dure mayor tiempo.

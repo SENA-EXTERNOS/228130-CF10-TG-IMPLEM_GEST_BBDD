@@ -131,7 +131,7 @@
           iframe(
             width='560',
             height='315',
-            src='https://www.youtube.com/watch?v=fQjFfH7hNYU',
+            src='https://www.youtube.com/embed/fQjFfH7hNYU',
             title='Pruebas DNS',
             frameborder='0',
             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture',
@@ -361,7 +361,7 @@
                 li 
                   i.fas.fa-check.color-icon-check
                   |
-                  | Cliente: MAIL FROM: yo@midominio.com
+                  | Cliente: MAIL FROM: &lt;yo@midominio.com&gt;
                 li 
                   i.fas.fa-check.color-icon-check
                   |
@@ -369,7 +369,7 @@
                 li 
                   i.fas.fa-check.color-icon-check
                   |
-                  | Cliente: RCPT TO: destinatario@sudominio.com
+                  | Cliente: RCPT TO: &lt;destinatario@sudominio.com&gt;
                 li 
                   i.fas.fa-check.color-icon-check
                   |
@@ -381,7 +381,8 @@
                 li 
                   i.fas.fa-check.color-icon-check
                   |
-                  | Servidor: 354 End data with
+                  | Servidor: 354 End data with &lt;CR&gt;&lt;LF&gt;.&lt;CR&gt;&lt;LF&gt;
+
                 li 
                   i.fas.fa-check.color-icon-check
                   |
@@ -423,7 +424,7 @@
                 li 
                   i.fas.fa-check.color-icon-check
                   |
-                  | Cliente: 
+                  | Cliente: &lt;CR&gt;&lt;LF&gt;.&lt;CR&gt;&lt;LF&gt;
                 li 
                   i.fas.fa-check.color-icon-check
                   |

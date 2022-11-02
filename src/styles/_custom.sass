@@ -101,3 +101,18 @@
 .color-icon-circle
   color: $color-acento-botones
   font-size: 5px
+
+.bloque-texto-g.color-tercero.p-3.p-sm-4.p-md-5
+  .bloque-texto-g__texto.p-4
+    position: relative
+    &::before
+      content: ''
+      position: absolute
+      width: calc( 100% + 2rem )
+      height: calc( 100% + 2rem )
+      border: dashed $color-primario
+      top: -1rem
+      left: -1rem
+
+.h-21
+  height: 21em

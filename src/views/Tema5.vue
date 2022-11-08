@@ -21,7 +21,11 @@
               li 
                 i.fas.fa-check.color-icon-check
                 |
-                | Imperfecciones del material, del proceso y/o de su fabricaciónErrores que se pueden producir en el servicio
+                | Imperfecciones del material, del proceso y/o de su fabricación
+              li 
+                i.fas.fa-check.color-icon-check
+                |
+                | Errores que se pueden producir en el servicio
               li 
                 i.fas.fa-check.color-icon-check
                 |
@@ -52,7 +56,7 @@
         .row
           .col-md-7.mb-4.mb-md-0
             h2 Fallos Normales
-            p En esta etapa la tasa de errores es menor y constante, los fallos se producen a causas inherentes al equipo, sino por causas externas, estas pueden ser accidentes fortuitos, mala operación, condiciones que no son adecuadas, (Luna, 2019).
+            p En esta etapa la tasa de errores es menor y constante, los fallos se producen a causas inherentes al equipo, si no por causas externas, estas pueden ser accidentes fortuitos, mala operación, condiciones que no son adecuadas, (Luna, 2019).
 
           .col-md-5
             figure

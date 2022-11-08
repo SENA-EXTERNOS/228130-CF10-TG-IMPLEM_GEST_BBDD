@@ -14,7 +14,7 @@
       .col-lg-11.col-10
         p Se debe diferenciar entre redundancia y alta disponibilidad, esto es importante ya que, es conveniente para la organización y para elegir adecuadamente al proveedor donde se proporcione garantía de ambas.
 
-    TabsA.color-acento-contenido
+    TabsA.color-acento-contenido.mb-5
       .tarjeta.color-adicional-2.p-4(titulo='Qué es la redundancia?')
         h4 Redundancia
         p Es la capacidad de un sistema para poder repetir datos para así prever la posibilidad de fallos que puedan surgir debido al desgaste normal del uso, ya sea del&nbsp;
@@ -30,13 +30,13 @@
         p En la redundancia activa los enlaces están activos al tiempo y en la redundancia pasiva solo una parte está siempre en modo activo y la otra parte estará en modo de espera.
 
       .tarjeta.color-adicional-2.p-4(titulo='Tipos de redundancia')
-        h4 ¿Cómo funciona?
-        p Este funciona en respuesta de una falla en la infraestructura, conceptualmente su funcionamiento es simple, este necesita de un&nbsp;
-          i software&nbsp;
-          | y múltiples configuraciones por expertos en el tema.
-        p Se debe desarrollar configuraciones en sistemas que tienen procesos robustos, para así minimizar tiempos de inactividades; a menudo esta es una prioridad alta, ya que a pesar de que se tengan&nbsp;
-          i software&nbsp;
-          | y sistemas confiables se pueden tener problemas que puedan derribar la infraestructura tecnológica, es por esto, la importancia de la alta disponibilidad ya que debe permitir una estrategia fiable y así reducir los tiempos de fallos, los sistemas de alta disponibilidad pueden recuperarse de sus fallas en su infraestructura automáticamente.
+        h4 Redundancia de hardware
+        p Es la posibilidad de ofrecer seguridad de un fallo en el uso de un&nbsp;
+          i Hardware,&nbsp;
+          | para esto es necesario utilizar interconexión de centros de datos para asegurar que cuando haya una falla se pueda conectar a otro&nbsp;
+          i Data center.
+        h4 Redundancia geográfica
+        p Este respaldo proporciona servicios de redundancia geográfico de modo que, en caso de una falla completa del centro de datos, la información sea desviada a otros servidores ubicados en otra parte del mundo, así que cuando ocurran desastres naturales que afecten a un área o región, habrá otro disponible en otra ubicación listo para funcionar, (Abad, 2013).
 
       .tarjeta.color-adicional-2.p-4(titulo='¿Qué es la disponibilidad?')
         h4 Redundancia y alta disponibilidad
@@ -77,7 +77,7 @@
 
     .row.d-flex.justify-content-center.mb-5
       .col-lg-8
-        .cajon.color-acento-contenido.p-4
+        .cajon.color-acento-contenido-2.p-4
           p.mb-0 A continuación, se abordarán los elementos de alta disponibilidad; hay una serie de combinaciones de&nbsp;
             i software&nbsp;
             | para realizar cada tarea en una configuración de alta disponibilidad y es por esto por lo que el &nbsp;
@@ -183,16 +183,18 @@
         AcordionA.mb-5(tipo='a', clase-tarjeta='tarjeta acordeonA')
           .row(titulo='¿Qué hace que un sistema este altamente disponible?')
             .col-12
-              p El objetivo primario de la alta disponibilidad es eliminar los puntos únicos de fallo en la infraestructura, un punto de fallo es un componente de la pila tecnológica que causaría una interrupción del servicio sino estuviera disponible, cualquier componente que es un requisito para el óptimo funcionamiento de la aplicación que no tiene la redundancia es considerado como un único punto de fallo.
+              p El objetivo primario de la alta disponibilidad es eliminar los puntos únicos de fallo en la infraestructura, un punto de fallo es un componente de la pila tecnológica que causaría una interrupción del servicio si no estuviera disponible, cualquier componente que es un requisito para el óptimo funcionamiento de la aplicación que no tiene la redundancia es considerado como un único punto de fallo.
               p Para eliminar estos puntos de fallo, cada capa debe estar preparada para la redundancia, vamos a colocar un ejemplo para entender a fondo este concepto: hay una infraestructura que tiene dos servidores web y redundantes detrás de un equilibrador de carga, el tráfico proveniente de los clientes se distribuirá por igual entre los servidores, pero si uno de estos llegara a tener un fallo el equilibrador de carga redirigirá todo el tráfico al servidor que este operativo, (Abad. A.,2018).
 
           .row(
             titulo='¿Qué pasaría si el equilibrador de carga se desconecta?'
           )
             .col-12
-              p Se puede decir que la capa de equilibrio de carga en si misma sigue siendo un punto único de fallo, pero sin embargo se puede configurar un equilibrador de carga adicional para lograr la redundancia.
+              p Se puede decir que la capa de equilibrio de carga en sí misma sigue siendo un punto único de fallo, pero sin embargo se puede configurar un equilibrador de carga adicional para lograr la redundancia.
               p La redundancia no puede garantizar una alta disponibilidad, para esto se debe usar una herramienta o proceso que detecte fallas y así poder tomar medidas de contingencias, la detección de sistemas redundantes puede utilizar un direccionamiento de arriba-abajo, es decir, la capa superior hace el proceso de monitorear la capa inferior y así poder garantizar la detección de fallos; hay casos donde la capa superior no existe, como lo es la capa de balanceador de carga, por esta razón crear un servicio que detecte las fallas en un equilibrador de carga generaría un nuevo punto único de fallo.
-              p Es por esto, que es necesario un enfoque distribuido donde se deban interconectar varios nodos de manera redundante como un clúster, donde cada nodo debe ser capaz de recuperarse de fallos y detectarlos de manera eficiente; ahora para el caso de un equilibrador de carga existe una complicación ya que, como funcionan los servidores de nombre la recuperación de un fallo, normalmente significa una conmutación por error y es por esto que se debe realizar un cambio en el DNS para así encaminar a una dirección IP del equilibrador de carga redundante. Un cambio de tipo DNS puede llevar mucho tiempo en propagarse en internet, lo que causaría un tiempo de inactividad, para esto es posible utilizar el equilibrio de carga de round-robin de DNS, este sistema&nbsp;
+              p Es por esto, que es necesario un enfoque distribuido donde se deban interconectar varios nodos de manera redundante como un clúster, donde cada nodo debe ser capaz de recuperarse de fallos y detectarlos de manera eficiente; ahora para el caso de un equilibrador de carga existe una complicación ya que, como funcionan los servidores de nombre la recuperación de un fallo, normalmente significa una conmutación por error y es por esto que se debe realizar un cambio en el DNS para así encaminar a una dirección IP del equilibrador de carga redundante. Un cambio de tipo DNS puede llevar mucho tiempo en propagarse en internet, lo que causaría un tiempo de inactividad, para esto es posible utilizar el equilibrio de carga de&nbsp;
+                i round-robin&nbsp;
+                | de DNS, este sistema&nbsp;
                 i round-robin&nbsp;
                 | es un método de balanceo de cargas sobre un número determinado de recursos, el DNS por turno es una forma común de garantizar que la carga de solicitudes DNS se distribuya de manera uniforme, sin embargo, este enfoque no es confiable, ya que deja la conmutación por error de la aplicación del lado del cliente, (Abad, A. 2018).
               p Otra solución más robusta y confiable es utilizar sistemas que permitan una reasignación flexible de direcciones IP como IP flotantes.
@@ -222,7 +224,7 @@
                 li 
                   i.fas.fa-check.color-icon-check
                   |
-                  | Datos: uno de los factores más cruciales es la perdida de datos y esta no se limita a fallos en el disco duro, los sistemas de alta disponibilidad deben tener en cuenta la seguridad de los datos en caso tal falle el sistema.
+                  | Datos: uno de los factores más cruciales es la perdida de datos y esta no se limita a fallos en el disco duro, los sistemas de alta disponibilidad deben tener en cuenta la seguridad de los datos en caso tal fallé el sistema.
                 li 
                   i.fas.fa-check.color-icon-check
                   |
@@ -278,16 +280,16 @@
         p Es por esto que la redundancia permite utilizar un sistema secundario cuando el sistema principal posee alguna falla, este proceso de cambios entre sistemas se debe hacer sin incidir en los tiempos de actividad. Los sistemas de alta disponibilidad tienen una recuperación rápida, pero existen riesgos ya que, deben reiniciarse por sí solos y en este lapso pueden ocurrir muchas situaciones, los sistemas que toleran las fallas suelen brindar una mayor protección a las organizaciones contra equipos con defectos, pero son muy costosos y no aseguran la protección contra fallos de&nbsp;
           i software.
     .row.mb-5
-      .col-lg-7
+      .col-lg-7.col-12
         .row
           .col-lg-12.mb-5
-            .cajon.color-acento-contenido.p-4
+            .cajon.color-acento-contenido-2.p-4
               p.mb-0 Es importante estudiar la alta disponibilidad en situaciones de recuperación ante fallos externos, de tipo ambiental, electrónico entre otros; así como suena, es un plan integral para la recuperación de operaciones y sistemas críticos después de eventos catastróficos.
           .col-lg-12
             p Entorno a lo anterior se debe hacer la siguiente pregunta, 
               strong ¿por qué participar en este tipo de planificación?
             p Generalmente se enfoca en volver a estar activos y funcionar luego de que haya ocurrido un evento catastrófico. Un plan de recuperación de desastre puede hacer frente a la perdida de una región entera, (Abad. 2018).
-      .col-lg-5.col-2
+      .col-lg-5.col-12
         figure(data-aos='zoom-in')
           img(src='@/assets/template/tema02/t2-i9.png')
 
@@ -304,6 +306,8 @@
             br
             br
             p No importa el tipo de negocio o el tamaño de la empresa, cualquier tipo de tiempo de inactividad del servicio puede ser costoso sin una solución de recuperación ante desastres, en los últimos años, las soluciones de informática alojada y en la nube se han vuelto más populares que el soporte interno de soluciones, por tal razón reduce costos y adiciona la flexibilidad.
+            br
+            br
             p Los beneficios de tener un sistema de alta disponibilidad son numerosos:
             br
             br

@@ -8,9 +8,9 @@
       h1 Cálculo de nivel de servicios
 
     .row.mb-5
-      .col-lg-6.col-10
+      .col-lg-6.col-12
         p Los indicadores brindan unos beneficios como es el garantizar el control del monitoreo con mayor precisión y crear la capacidad de prestar más concentración a lo que necesita más atención. Si la empresa obtiene un aumento en el MTBF (Medio Tiempo de Fallos) después del mantenimiento, el indicador refiere una mejora en la calidad de los procesos, con un producto final de mayor credibilidad ante los consumidores, un buen resultado en el MTBF puede indicar que los métodos de la empresa están bien ejecutados, el MTTR (Tiempo Medio de Reparación) a su vez, debe reducirse al máximo para que su resultado se considere bueno, un índice MTTR bajo evita una pérdida de productividad en los equipos o sistemas que no se encuentren disponibles y prende alarmas para que la empresa brinde respuestas rápidas y alternativas a fallas de los procesos, (Montoya. M, et al 2020).
-      .col-lg-6.col-2
+      .col-lg-6.col-12
         figure(data-aos='zoom-in')
           img(src='@/assets/template/tema03/t3-i1.png')
 
@@ -26,7 +26,7 @@
         .cajon.color-acento-botones.p-4
           p.mb-0 Por último, se debe desarrollar un plan de mantenimiento preventivo, esto con el fin de reducir el número de mantenimientos que se puedan derivar de problemas o fallos.
 
-    AcordionA(tipo='a', clase-tarjeta='tarjeta tarjeta--azul')
+    AcordionA(tipo='a', clase-tarjeta='tarjeta tarjeta--griss')
       .row(titulo='¿Qué es MTTR?')
         .col-md-7.mb-4.mb-md-0
           p El MTTR traduce “tiempo medio de reparación”, este define en cuánto tiempo se demora en realizar la reparación de un daño detectado previamente, la medición que se genera en todo el intervalo en el que se gestiona la reparación y el tiempo en devolver el activo a sus condiciones originales para el adecuado funcionamiento, da inicio a la incidencia y finaliza cuando el daño se soluciona.
@@ -40,7 +40,7 @@
             )
       .row(titulo='¿Cómo se calcula MTTR?')
         .col-md-7.mb-4.mb-md-0
-          p las variables que determinan el valor del MTTR son:
+          p LAS VARIABLES QUE DETERMINAN EL VALOR DEL MTTR SON:
           br
           ul
             li 

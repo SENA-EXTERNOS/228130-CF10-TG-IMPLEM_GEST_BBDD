@@ -97,7 +97,8 @@
       )
         .row
           .col-md-8
-            p Cuando se hace un cambio en el DNS en un dominio, suele tardar unas 48 horas hasta que este se actualice a nivel mundial, por ello en algunos casos el dominio sigue sin resolver los cambios, también puede influir las caches en tarjetas de red, los navegadores o routers.
+            p Cuando se hace un cambio en el DNS en un dominio, suele tardar unas 48 horas hasta que este se actualice a nivel mundial, por ello en algunos casos el dominio sigue sin resolver los cambios, también puede influir las caches en tarjetas de red, los navegadores o&nbsp;
+              i routers.
             |
             | Es por eso, que, para salir de dudas se puede utilizar la herramienta&nbsp;
             i “nslookup”&nbsp;
@@ -111,9 +112,12 @@
                   )
               .col-lg-7.col-6
                 h4.text-white Prueba DNS
-                p.mb-0.text-white De clic en el botón descargar para visualizar un ejemplo de prueba DNS. 
+                p.mb-0.text-white De clic en el botón descargar para visualizar un ejemplo de prueba DNS.
               .col-lg-3.col-4
-                a.boton.boton--b.color-acento-contenido(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
+                a.boton.boton--b.color-acento-contenido(
+                  :href='obtenerLink("/actividades/actividad.html")',
+                  target='_blank'
+                )
                   span Descargar
                   i.fas.fa-file-download
           .col-md-4.mb-4.mb-md-0
@@ -171,9 +175,10 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h2 ¿Si no se implementa un DNSSEC qué pasaría?
-            p Se presenta el siguiente ejemplo, se decide ingresar a una página de compra y no se verifica que el sitio web este duplicado, por ende, se terminará comprando un artículo en un sitio no oficial, y los datos y tarjeta de crédito posiblemente sean entregados a un hacker.
+            p Se presenta el siguiente ejemplo, se decide ingresar a una página de compra y no se verifica que el sitio web este duplicado, por ende, se terminará comprando un artículo en un sitio no oficial, y los datos y tarjeta de crédito posiblemente sean entregados a un&nbsp;
+              i hacker.
             |
-            | Un sitio con DNSSEC este problema no ocurre, ya que este valida las consultas realizadas en el ordenador para asegurar de no llegar a un sitio malicioso; una vez realizada la consulta este devolverá una respuesta valida o firmada por DNSSEC, esta respuesta permite saber si la dirección IP es autentica.
+            | Un sitio con DNSSEC este problema no ocurre, ya que este valida las consultas realizadas en el ordenador para asegurar de no llegar a un sitio malicioso; una vez realizada la consulta este devolverá una respuesta válida o firmada por DNSSEC, esta respuesta permite saber si la dirección IP es auténtica.
             br
             br
             | Si se quiere probar un DNSSEC de cualquier URL se puede ir al siguiente sitio web:
@@ -212,7 +217,7 @@
 
     h3.mb-5
       i.fas.fa-square.cac.me-3
-      i DynDNS o
+      i DynDNS o&nbsp;
       | DDNS
 
     .row.mb-4
@@ -239,7 +244,9 @@
         strong
           i Duck&nbsp;
           | DNS&nbsp;
-        | este servicio DDNS permite cuidar mucho la privacidad, es capaz de guardar de forma segura todas las bases de datos DNS y es compatible con cualquier sistema operativo, además es compatible con cualquier router que cuente con la opción de DynDNS.
+        | este servicio DDNS permite cuidar mucho la privacidad, es capaz de guardar de forma segura todas las bases de datos DNS y es compatible con cualquier sistema operativo, además es compatible con cualquier&nbsp;
+        i router&nbsp;
+        | que cuente con la opción de DynDNS.
         p 
         strong
           | DNS&nbsp;
@@ -268,36 +275,48 @@
               li 
                 i.fas.fa-check.color-icon-check
                 |
-                | Fiabilidad.
+                | Ir la a web oficial del servicio.
               br
               li 
                 i.fas.fa-check.color-icon-check
                 |
-                | Mejor seguridad.
+                | Crear una cuenta, registrando datos personales como lo son nombres, apellidos, dirección email, usuario y contraseña.
               br
               li 
                 i.fas.fa-check.color-icon-check
                 |
-                | Sin censura.
+                | Se debe marcar la opción de aceptar términos de uso y se da clic en&nbsp;
+                i Create Free Account.
               br
               li 
                 i.fas.fa-check.color-icon-check
                 |
-                | Acceso a contenido geo bloqueado.
+                | Se recibe un correo para hacer la activación de la cuenta.
               br
               li 
                 i.fas.fa-check.color-icon-check
                 |
-                | Actualización de bases de datos DNS.
+                | Luego se pulsa en&nbsp;
+                i Creating a new DynDNS&nbsp;
+                | url.
               br
               li 
                 i.fas.fa-check.color-icon-check
                 |
-                | Mejor velocidad.
+                | Se escribe el nombre de dominio y se elige el puerto por defecto 80.
+              br
+              li 
+                i.fas.fa-check.color-icon-check
+                |
+                | Luego se da clic en la opción&nbsp;
+                i Creating.
 
     p.mb-5 Protocolo SMTP, mejor llamado protocolo simple de transferencia de correo, es un protocolo TCP/IP que se utiliza para enviar y recibir correos electrónicos, este normalmente se utiliza con POP3.
 
-    AcordionA.mb-5(tipo='b', clase-tarjeta='tarjeta tarjeta--azul color-activo')
+    AcordionA.mb-5(
+      tipo='b',
+      clase-tarjeta='tarjeta tarjeta--azul color-activo'
+    )
       .row(titulo='El protocolo de transferencia de correo simple (SMTP)')
         .col-md-8.mb-4.mb-md-0
           p Este se encarga básicamente de entregar el mensaje, en cuanto se reciben son enviados al servidor de correo de destino, el correo se enruta en base al servidor de destino, no a las direcciones de los usuarios individuales.
@@ -330,7 +349,7 @@
             )
       .row(titulo='Protocolo POP 3 o <em>Post Office Protocol 3</em>')
         .col-md-8.mb-4.mb-md-0
-          p Se encarga de establecer conexión entre un cliente y servidor de correo electrónico para gestionar el envió de mensajes, se puede utilizar para los clientes pesados genéricos, los dispositivos móviles no sincronizados vía&nbsp;
+          p Se encarga de establecer conexión entre un cliente y servidor de correo electrónico para gestionar el envío de mensajes, se puede utilizar para los clientes pesados genéricos, los dispositivos móviles no sincronizados vía&nbsp;
             i ActiveSync y Outlook,&nbsp;
             | permite a los usuarios recuperar sus mensajes desde su buzón de mensajes, no ofrece ninguna funcionalidad de trabajo en equipo; este protocolo es fácil de implementar y la conexión a un servidor POP3 funciona de manera sencilla, los mensajes se pueden enviar de dos formas, una es dejando una copia en el servidor y la otra moviendo el correo hacia el cliente, (Sánchez et al, 2020).
         .col-md-4
@@ -357,11 +376,14 @@
                 li 
                   i.fas.fa-check.color-icon-check
                   |
-                  | Servidor: 250 Hello, please to meet you
+                  | Servidor: 250&nbsp;
+                  i Hello, please to meet you
                 li 
                   i.fas.fa-check.color-icon-check
                   |
-                  | Cliente: MAIL FROM: &lt;yo@midominio.com&gt;
+                  | Cliente:&nbsp;
+                  i MAIL FROM:&nbsp;
+                  | &lt;yo@midominio.com&gt;
                 li 
                   i.fas.fa-check.color-icon-check
                   |
@@ -377,16 +399,21 @@
                 li 
                   i.fas.fa-check.color-icon-check
                   |
-                  | Cliente: DATA
+                  | Cliente:&nbsp;
+                  i DATA
                 li 
                   i.fas.fa-check.color-icon-check
                   |
-                  | Servidor: 354 End data with &lt;CR&gt;&lt;LF&gt;.&lt;CR&gt;&lt;LF&gt;
+                  | Servidor: 354&nbsp;
+                  i End data with&nbsp;
+                  | &lt;CR&gt;&lt;LF&gt;.&lt;CR&gt;&lt;LF&gt;
 
                 li 
                   i.fas.fa-check.color-icon-check
                   |
-                  | Cliente: Subject: Campo de asunto
+                  | Cliente:&nbsp;
+                  i Subject:&nbsp;
+                  | Campo de asunto
             .col-lg-6
               ul
                 li 
@@ -396,7 +423,9 @@
                 li 
                   i.fas.fa-check.color-icon-check
                   |
-                  | Cliente: To: destinatario@sudominio.com
+                  | Cliente:&nbsp;
+                  i To:&nbsp;
+                  | destinatario@sudominio.com
                 li 
                   i.fas.fa-check.color-icon-check
                   |
@@ -428,11 +457,14 @@
                 li 
                   i.fas.fa-check.color-icon-check
                   |
-                  | Servidor: 250 Ok: queued as 12345
+                  | Servidor: 250 Ok:&nbsp;
+                  i queued as&nbsp;
+                  | 12345
                 li 
                   i.fas.fa-check.color-icon-check
                   |
-                  | Cliente: quit
+                  | Cliente:&nbsp;
+                  i quit
         .col-md-4
           figure
             img(
@@ -458,9 +490,9 @@
 
           p(numero='2', titulo='Seleccionar pestaña archivo') Abrir la aplicación de correo Outlook y seleccionar la pestaña archivo en la barra de herramientas.
 
-          p(numero='3', titulo='Configurar manualmente') Seleccionar la opción configurar manualmente las opciones del servidor o tipos de servidores adicionales y se pulsa siguiente.
+          p(numero='3', titulo='Agregar cuentas') Encima del botón configuración, hacer clic en agregar cuentas.
 
-          p(numero='4', titulo='Agregar cuentas') Encima del botón configuración, hacer clic en agregar cuentas.
+          p(numero='4', titulo='Configurar manualmente') Seleccionar la opción configurar manualmente las opciones del servidor o tipos de servidores adicionales y se pulsa siguiente.
 
           p(numero='5', titulo='Seleccionar correo electrónico') En la página elegir servicio, seleccionar el correo electrónico de internet y pulsar siguiente
 
@@ -488,11 +520,10 @@
                 i.fas.fa-circle.color-icon-circle
                 |
                 | Servidor de correo saliente: escribir el nombre del servidor SMTP.
-          
 
           p(numero='7', titulo='Nombre de usuario') Nombre de usuario: añadir un usuario a la cuenta de correo electrónico.
 
-          p(numero='8', titulo='Contraseña') Contraseña: introducir la contraseña establecida de la cuenta de correo electrónico.
+          p(numero='8', titulo='Contraseña') Introducir la contraseña establecida de la cuenta de correo electrónico.
 
           p(numero='9', titulo='Más configuraciones – Mi servidor de salida') Una vez configurada la cuenta pulsar en más configuraciones y seleccionar Mi servidor de salida (SMTP) requiere autenticar y utilizar la misma configuración que mi servidor de correo de entrada y seleccionar aceptar.
 

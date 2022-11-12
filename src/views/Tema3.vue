@@ -40,7 +40,7 @@
             )
       .row(titulo='¿Cómo se calcula MTTR?')
         .col-md-7.mb-4.mb-md-0
-          p LAS VARIABLES QUE DETERMINAN EL VALOR DEL MTTR SON:
+          p Las variables que determinan el valor del MTTR son:          
           br
           ul
             li 

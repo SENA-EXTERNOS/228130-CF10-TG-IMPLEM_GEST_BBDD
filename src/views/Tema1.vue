@@ -115,7 +115,7 @@
                 p.mb-0.text-white De clic en el botón descargar para visualizar un ejemplo de prueba DNS.
               .col-lg-3.col-4
                 a.boton.boton--b.color-acento-contenido(
-                  :href='obtenerLink("/actividades/actividad.html")',
+                  :href='obtenerLink("/downloads/Pruebas_del_DNS.pdf")',
                   target='_blank'
                 )
                   span Descargar

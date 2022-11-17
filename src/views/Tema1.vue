@@ -521,7 +521,7 @@
                 |
                 | Servidor de correo saliente: escribir el nombre del servidor SMTP.
 
-          p(numero='7', titulo='Nombre de usuario') Nombre de usuario: añadir un usuario a la cuenta de correo electrónico.
+          p(numero='7', titulo='Nombre de usuario') Añadir un usuario a la cuenta de correo electrónico.
 
           p(numero='8', titulo='Contraseña') Introducir la contraseña establecida de la cuenta de correo electrónico.
 

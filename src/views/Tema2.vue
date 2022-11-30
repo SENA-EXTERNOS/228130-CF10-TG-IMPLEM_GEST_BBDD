@@ -68,13 +68,11 @@
           i software.
 
       .tarjeta.color-adicional-2.p-4(titulo='La alta disponibilidad')
-        h4 Redundancia de hardware
-        p Es la posibilidad de ofrecer seguridad de un fallo en el uso de un&nbsp;
-          i Hardware,&nbsp;
-          | para esto es necesario utilizar interconexión de centros de datos para asegurar que cuando haya una falla se pueda conectar a otro Data center.
-        h4 Redundancia geográfica
-        p Este respaldo proporciona servicios de redundancia geográfico de modo que, en caso de una falla completa del centro de datos, la información sea desviada a otros servidores ubicados en otra parte del mundo, así que cuando ocurran desastres naturales que afecten a un área o región, habrá otro disponible en otra ubicación listo para funcionar, (Abad, 2013).
-
+        h4 ¿Cómo funciona?
+        p Este funciona en respuesta de una falla en la infraestructura, conceptualmente su funcionamiento es simple, este necesita de un 
+          em software 
+          | y múltiples configuraciones por expertos en el tema.
+        p Se debe desarrollar configuraciones en sistemas que tienen procesos robustos, para así minimizar tiempos de inactividades; a menudo esta es una prioridad alta, ya que a pesar de que se tengan software y sistemas confiables se pueden tener problemas que puedan derribar la infraestructura tecnológica, es por esto, la importancia de la alta disponibilidad ya que debe permitir una estrategia fiable y así reducir los tiempos de fallos, los sistemas de alta disponibilidad pueden recuperarse de sus fallas en su infraestructura automáticamente. 
     .row.d-flex.justify-content-center.mb-5
       .col-lg-8
         .cajon.color-acento-contenido-2.p-4

@@ -154,7 +154,7 @@
             h2 DNSSEC
             br
             br
-            p Para poder entender qué es un DNSSC, es importante saber qué es un DNS que se define como nombre de dominio, el cual se encarga de traducir nombres de la URL de un sitio web que se visita en números o direcciones IP, la computadora procesa mejor la información por números, por lo tanto, el DNS traduce esa URL.
+            p Para poder entender qué es un DNSSEC, es importante saber qué es un DNS que se define como nombre de dominio, el cual se encarga de traducir nombres de la URL de un sitio web que se visita en números o direcciones IP, la computadora procesa mejor la información por números, por lo tanto, el DNS traduce esa URL.
 
     p Se presenta a continuación información sobre el DNSSEC, que pasa si no se implementa, su habilitación en las páginas web.
 

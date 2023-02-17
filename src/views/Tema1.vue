@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Pruebas de servicios de red
+      h1 Pruebas de servicios de red 
 
     p Es importante el desarrollo de pruebas a cada uno de los servicios de red, ya que estas darán la seguridad para el óptimo funcionamiento de la red, es por esto que, es necesario mirar cada una de las pruebas en los servicios (DNS, DNSSEC, DDNS, SMTP, POP3, POP3S), estos son de gran importancia en la utilización de la internet, ya que garantizan la eficiencia de los recursos en una red.
 
@@ -41,9 +41,7 @@
         figure(data-aos='zoom-in')
           img(src='@/assets/template/tema01/t1-i2.png')
       .col-lg-11.col-10
-        p Ahora bien, tener en cuenta que un DNS es un protocolo importante del internet utilizado por ordenadores, servicios o cualquier recurso de red, y tiene varios usos, pero el principal es el de resolver las direcciones IP de los sitios web o servicios que utilizamos, para esto asignamos direcciones IP. Pongamos un ejemplo: la dirección web de Google es 216.58.210.163, más sin embargo las personas llegan a esta dirección por su nombre&nbsp;
-          strong www.google.com&nbsp;
-          | y no por su dirección IP. (Philippe,2010).
+        p Ahora bien, tener en cuenta que un DNS es un protocolo importante del Internet, utilizado por ordenadores, servicios o cualquier recurso de red, y cuenta con varios usos; el principal uso es el de resolver las direcciones IP de los sitios web o servicios que utilizamos y para esto, asignamos direcciones IP. Pongamos un ejemplo: la dirección web de Google es 216.58.210.163, más, sin embargo, las personas llegan a esta dirección por su nombre www.google.com y no por su dirección IP. (Philippe, 2010)
 
     TabsB.color-acento-contenido.mb-5
       .py-4.py-md-5(
@@ -97,12 +95,10 @@
       )
         .row
           .col-md-8
-            p Cuando se hace un cambio en el DNS en un dominio, suele tardar unas 48 horas hasta que este se actualice a nivel mundial, por ello en algunos casos el dominio sigue sin resolver los cambios, también puede influir las caches en tarjetas de red, los navegadores o&nbsp;
-              i routers.
-            |
-            | Es por eso, que, para salir de dudas se puede utilizar la herramienta&nbsp;
-            i “nslookup”&nbsp;
-            | para probar el funcionamiento del servicio DNS en un dominio.
+            p Cuando se hace un cambio en el DNS en un dominio, suele tardar unas 48 horas hasta que este se actualice a nivel mundial; por eso en algunos casos, el dominio sigue sin resolver los cambios; también pueden influir las cachés en tarjetas de red, los navegadores o #[em routers.]
+              br
+              br
+              |Es por eso, que, para salir de dudas se puede utilizar la herramienta #[em “nslookup”] para probar el funcionamiento del servicio DNS en un dominio.
             .row.mt-5.p-4.card-t1.align-items-center.mb-5
               .col-lg-2.col-2
                 figure
@@ -163,7 +159,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h2 ¿Qué es un DNSSEC?
-            p Básicamente son extensiones a la seguridad del DNS; si se tiene un sitio web se puede estar seguro y mantener a los usuarios protegidos implementando el servicio DNSSEC, este es la clave de seguridad para la protección de su sitio web. (Philippe, 2010).
+            p Básicamente son extensiones a la seguridad del DNS; si se tiene un sitio web, se puede estar seguro y mantener a los usuarios protegidos implementando el servicio DNSSEC; este es la clave de seguridad para la protección de su sitio web. (Philippe, 2010)
 
           .col-md-6
             figure
@@ -175,23 +171,10 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h2 ¿Si no se implementa un DNSSEC qué pasaría?
-            p Se presenta el siguiente ejemplo, se decide ingresar a una página de compra y no se verifica que el sitio web este duplicado, por ende, se terminará comprando un artículo en un sitio no oficial, y los datos y tarjeta de crédito posiblemente sean entregados a un&nbsp;
-              i hacker.
-            |
-            | Un sitio con DNSSEC este problema no ocurre, ya que este valida las consultas realizadas en el ordenador para asegurar de no llegar a un sitio malicioso; una vez realizada la consulta este devolverá una respuesta válida o firmada por DNSSEC, esta respuesta permite saber si la dirección IP es auténtica.
-            br
-            br
-            | Si se quiere probar un DNSSEC de cualquier URL se puede ir al siguiente sitio web:
-            br
-            br
-            a.anexo.mb-4.mb-lg-0(
-              href='https://dnssec-analyzer.verisignlabs.com/',
-              target='_blank'
-            )
-              .anexo__icono
-                img(src='@/assets/template/icono-link.svg')
-              .anexo__texto
-                p Enlace web. https://dnssec-analyzer.verisignlabs.com/
+            p Se presenta el siguiente ejemplo, se decide ingresar a una página de compra y no se verifica que el sitio web este duplicado, por ende, se terminará comprando un artículo en un sitio no oficial, y los datos y tarjeta de crédito posiblemente sean entregados a un hacker.
+              br
+              br
+              |Un sitio con DNSSEC este problema no ocurre, ya que este valida las consultas realizadas en el ordenador para asegurar de no llegar a un sitio malicioso; una vez realizada la consulta este devolverá una respuesta valida o firmada por DNSSEC, esta respuesta permite saber si la dirección IP es autentica.
 
           .col-md-6
             figure
@@ -239,77 +222,70 @@
       .col-md-8
         p 
         strong No-IP&nbsp;
-        | es otro servicio DynDNS ofrecida por una compañía de Estados Unidos que cuenta con un paquete sin costo que permite crear tres nombres de dominio, el único inconveniente es que este servicio obligara a verificar la cuenta cada 30 días.
+        | es otro servicio DynDNS ofrecida por una compañía de Estados Unidos que cuenta con un paquete sin costo, que permite crear tres nombres de dominio; el único inconveniente es que este servicio obligará a verificar la cuenta cada 30 días.
         p 
         strong
           i Duck&nbsp;
           | DNS&nbsp;
-        | este servicio DDNS permite cuidar mucho la privacidad, es capaz de guardar de forma segura todas las bases de datos DNS y es compatible con cualquier sistema operativo, además es compatible con cualquier&nbsp;
-        i router&nbsp;
-        | que cuente con la opción de DynDNS.
+        | este servicio DDNS permite cuidar mucho la privacidad, es capaz de guardar de forma segura todas las bases de datos DNS y es compatible con cualquier sistema operativo, además es compatible con cualquier #[em router] que cuente con la opción de DynDNS.
         p 
         strong
           | DNS&nbsp;
           i Exit&nbsp;
-        | ofrece múltiples funciones, permite tener la IP asociada a uno de los dominios gratuitos que tiene y, de esta manera, podrá registrar su dominio gratis para vincular la IP, tendrá un DNS dinámico, (Philippe,2010).
+        | ofrece múltiples funciones, permite tener la IP asociada a uno de los dominios gratuitos que tiene y, de esta manera, podrá registrar su dominio gratis; para vincular la IP, tendrá un DNS dinámico. (Philippe,2010)
       .col-md-4
         figure(data-aos='zoom-in')
           img(src='@/assets/template/tema01/t1-i12.jpg')
+    .row.justify-content-center.mb-5
+      .col-lg-5.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/c1.png', alt='')
+      .col-lg-7
+        ul.lista-ul--color
+          li
+            i.fas.fa-square
+            h3.mb-0 ¿Como configurar un servicio DynDNS?
+        p Se presenta un ejemplo para implementar y configurar un servicio DynDNS, con un paso a paso para poder acceder a partir de un nombre de dominio al ordenador de nuestra casa, se va a usar el servicio DynDNS Service.
+        ul.lista-ul--color
+          li
+            i.fas.fa-check
+            | Ir la a #[em web] oficial del servicio.
+          li
+            i.fas.fa-check
+            | Crear una cuenta, registrando datos personales como lo son nombres, apellidos, dirección #[em email], usuario y contraseña.
+          li
+            i.fas.fa-check
+            | Se debe marcar la opción de aceptar términos de uso y se da clic en #[em Create Free Account.]
+          li
+            i.fas.fa-check
+            | Se recibe un correo para hacer la activación de la cuenta.
+          li
+            i.fas.fa-check
+            | Luego se pulsa en #[em Creating] a #[em new] DynDNS url.
+          li
+            i.fas.fa-check
+            | Se escribe el nombre de dominio y se elige el puerto por defecto 80.
+          li
+            i.fas.fa-check
+            | Luego se da clic en la opción #[em Creating.]
+        p Esto generará el DNS y mostrará la URL para así poderla abrir.
 
-    .row.d-flex.justify-content-center.mb-2
-      .col-11.mb-5
-        .bloque-texto-g.color-tercero.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
-            :style='{ "background-image": `url(${require("@/assets/template/tema01/t1-i13.jpg")})` }'
-          )(
-            data-aos='zoom-in'
-          )
-          .bloque-texto-g__texto.p-4
-            h2 ¿Como configurar un servicio DynDNS?
-            br
-            br
-            p Se presenta un ejemplo para implementar y configurar un servicio DynDNS, con un paso a paso para poder acceder a partir de un nombre de dominio al ordenador de nuestra casa, se va a usar el servicio DynDNS Service.
-            br
-            br
-            ul
-              li 
-                i.fas.fa-check.color-icon-check
-                |
-                | Ir la a web oficial del servicio.
-              br
-              li 
-                i.fas.fa-check.color-icon-check
-                |
-                | Crear una cuenta, registrando datos personales como lo son nombres, apellidos, dirección email, usuario y contraseña.
-              br
-              li 
-                i.fas.fa-check.color-icon-check
-                |
-                | Se debe marcar la opción de aceptar términos de uso y se da clic en&nbsp;
-                i Create Free Account.
-              br
-              li 
-                i.fas.fa-check.color-icon-check
-                |
-                | Se recibe un correo para hacer la activación de la cuenta.
-              br
-              li 
-                i.fas.fa-check.color-icon-check
-                |
-                | Luego se pulsa en&nbsp;
-                i Creating a new DynDNS&nbsp;
-                | url.
-              br
-              li 
-                i.fas.fa-check.color-icon-check
-                |
-                | Se escribe el nombre de dominio y se elige el puerto por defecto 80.
-              br
-              li 
-                i.fas.fa-check.color-icon-check
-                |
-                | Luego se da clic en la opción&nbsp;
-                i Creating.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     p.mb-5 Protocolo SMTP, mejor llamado protocolo simple de transferencia de correo, es un protocolo TCP/IP que se utiliza para enviar y recibir correos electrónicos, este normalmente se utiliza con POP3.
 
@@ -330,7 +306,7 @@
 
       .row(titulo='¿Qué es un puerto SMTP? ')
         .col-md-8.mb-4.mb-md-0
-          p Un puerto es una forma de ayudar a los ordenadores a comunicarse entre sí, así como una dirección IP identifica a una computadora, un puerto identifica una aplicación o servicio específico. Se puede explicar de otra manera, una dirección IP es la dirección física de un centro comercial, un puerto es el número de cada uno de los negocios del centro comercial, si se quiere entregar algo a ese negocio no solamente lo dirige a la dirección del centro comercial, sino que también se necesita el número del local para que pueda llegar ese paquete, (Sánchez et al, 2020).
+          p Un puerto es una forma de ayudar a los ordenadores a comunicarse entre ellos, así como una dirección IP identifica a una computadora, un puerto identifica una aplicación o servicio específico. Se puede explicar de otra manera; una dirección IP es la dirección física de un centro comercial, un puerto es el número de cada uno de los negocios del centro comercial, si se quiere entregar algo a ese negocio no solamente lo dirige a la dirección del centro comercial, sino que también se necesita el número del local, para que pueda llegar ese paquete. (Sánchez et al, 2020)
         .col-md-4
           figure
             img(
@@ -339,8 +315,10 @@
             )
       .row(titulo='¿Qué puertos utiliza el SMTP?')
         .col-md-8.mb-4.mb-md-0
-          p En realidad, existen cuatro puertos que se utilizan comúnmente en el protocolo SMTP que son: 25, 587, 465, 2525; a continuación, se explicaran cada uno de los puertos: el puerto 25 se utiliza para la retransmisión SMTP, este es usado generalmente para enviar spam; el puerto 587 es el puerto por defecto en el SMTP moderno.
-          | El puerto 465 fue registrado para SMTPS, luego fue reasignado para un uso diferente y desaprobado, ahora bien, el puerto 2525 no es un puerto oficial, sin embargo, se usa popularmente como alternativa al puerto 587; la mayoría de proveedores de servicios de internet y alojamiento en la nube admiten este puerto; si el puerto 587 está bloqueado, el puerto 2525 es una buena alternativa.
+          p En realidad, existen cuatro puertos que se utilizan comúnmente en el protocolo SMTP que son: 25, 587, 465, 2525; a continuación, se explicarán cada uno de los puertos: el puerto 25 se utiliza para la retransmisión SMTP y este es usado, generalmente, para enviar spam; el puerto 587 es el puerto por defecto en el SMTP moderno. 
+            br
+            br
+            |El puerto 465 fue registrado para SMTPS, luego fue reasignado para un uso diferente y desaprobado; ahora bien, el puerto 2525 no es un puerto oficial, sin embargo, se usa popularmente como alternativa al puerto 587; la mayoría de proveedores de servicios de Internet y alojamiento en la nube admiten este puerto; si el puerto 587 está bloqueado, el puerto 2525 es una buena alternativa.
         .col-md-4
           figure
             img(
@@ -349,9 +327,7 @@
             )
       .row(titulo='Protocolo POP 3 o <em>Post Office Protocol 3</em>')
         .col-md-8.mb-4.mb-md-0
-          p Se encarga de establecer conexión entre un cliente y servidor de correo electrónico para gestionar el envío de mensajes, se puede utilizar para los clientes pesados genéricos, los dispositivos móviles no sincronizados vía&nbsp;
-            i ActiveSync y Outlook,&nbsp;
-            | permite a los usuarios recuperar sus mensajes desde su buzón de mensajes, no ofrece ninguna funcionalidad de trabajo en equipo; este protocolo es fácil de implementar y la conexión a un servidor POP3 funciona de manera sencilla, los mensajes se pueden enviar de dos formas, una es dejando una copia en el servidor y la otra moviendo el correo hacia el cliente, (Sánchez et al, 2020).
+          p Se encarga de establecer conexión entre un cliente y servidor de correo electrónico para gestionar el envió de mensajes y se puede utilizar para los clientes pesados genéricos; los dispositivos móviles no sincronizados vía ActiveSync y Outlook, permiten a los usuarios recuperar sus mensajes desde su buzón de mensajes y no ofrece ninguna funcionalidad de trabajo en equipo; este protocolo es fácil de implementar y la conexión a un servidor POP3 funciona de manera sencilla, los mensajes se pueden enviar de dos formas, una es dejando una copia en el servidor y la otra, moviendo el correo hacia el cliente. (Sánchez et al, 2020)
         .col-md-4
           figure
             img(
@@ -476,7 +452,7 @@
       i.fas.fa-square.cac.me-3
       i Protocolo POP3S
 
-    p Protocolo de oficina de correo, este se utiliza para obtener mensajes de correo electrónico en clientes locales.
+    p Protocolo de oficina de correo, se utiliza para obtener mensajes de correo electrónico de clientes locales.
     br
     p.mb-5 Para configurar e implementar cuentas con el protocolo POP3 en Outlook debemos hacer los siguientes pasos:
 

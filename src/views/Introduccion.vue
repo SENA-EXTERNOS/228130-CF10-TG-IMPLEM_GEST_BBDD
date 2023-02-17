@@ -13,9 +13,10 @@
         figure(data-aos='zoom-in')
           img(src='@/assets/template/introduccion/i-i1.png')
       .col-lg-11.col-10
-        p Querido aprendiz, reciba cordial bienvenida a este aprendizaje basado en la temática de las pruebas de servicios de red, gestión de redundancia y alta disponibilidad, cálculo de nivel de servicios, mantenimiento predictivo e Identificación de fallas; para la elaboración de este componente, se abordarán varios autores conocidos en estos temas de quienes se han citado y referenciado conceptos para los fines educativos, se sugiere mirar el siguiente video para identificar el contexto de aprendizaje.
-        br 
-        strong ¡Muchos éxitos en este proceso!
+        p Apreciado aprendiz, bienvenido a este componente formativo, donde se abordarán generalidades y aspectos claves de las pruebas de servicios de red, gestión de redundancia y alta disponibilidad, cálculo de nivel de servicios, mantenimiento predictivo e identificación de fallas. Afiance sus conocimientos, saberes y habilidades en el funcionamiento de servidores y servicios; para lograrlo, realice un estudio responsable de los contenidos de este componente formativo, diseñado con base en postulados de autores conocidos y expertos en el tema.
+          br
+          br
+          |En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
 
     .col-lg-12
       figure

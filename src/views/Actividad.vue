@@ -11,7 +11,7 @@
             img(src='@/assets/curso/temas/ad.svg')
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.mb-0
-            h2 Implementación y gestión de bases de datos
+            h2 Funcionamiento de servidores y servicios
         p.mb-4 Apreciado aprendiz, a continuación, encontrará una serie de preguntas que deberá resolver, con el objetivo de evaluar la aprehensión de los conocimientos expuestos en este componente formativo.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center 

@@ -14,7 +14,7 @@
             p Para poder referirse al mantenimiento predictivo, es necesario dar a conocer la importancia en la prevención de eventos catastróficos o fallas. Es por esto, que se hace necesario implementar un plan donde incorporen técnicas, datos y criterios dando como resultado la prevención de los daños, garantizando que en el momento preciso se puedan determinar las medidas correctivas y así el funcionamiento de un activo no se vea afectado.
             p En las estrategias de mantenimiento preventivo se hace fundamental realizar los siguientes pasos: verificaciones programadas, modelo de actualización, mantenimiento y el cambio de partes, monitoreo continuo y el análisis de los datos.
             .cajon.color-acento-contenido.p-4
-              p.mb-0 Finalmente, se concluye que los costos de funcionamiento en las organizaciones, han disminuido gracias a la implementación de planes de mantenimiento predictivo, dado que han de generar soluciones en el tiempo preciso, prediciendo fallos en los procesos. (Pérez, 2019)
+              p.mb-0 Finalmente, se concluye que los costos de funcionamiento en las organizaciones, han disminuido gracias a la implementación de planes de mantenimiento predictivo, dado que han de generar soluciones en el tiempo preciso, prediciendo fallos en los procesos.
       .col-lg-6.col-12
         figure(data-aos='zoom-in')
           img(src='@/assets/template/tema04/t4-i1.png')
@@ -53,10 +53,6 @@
 
     .row.justify-content-center
       .col-lg-8.col-12 
-        .titulo-sexto.color-acento-contenido.mb-5
-          h5 Figura 1.
-          br
-          i Beneficios del mantenimiento preventivo   
         h3.text-center.mb-5 Beneficios del mantenimiento preventivo
 
         ImagenInfografica.color-acento-botones.mb-5
@@ -97,7 +93,7 @@
           .col-lg-12           
             p.mb-3 Hay usuarios que afirman que se necesita la disponibilidad del equipo, así como se necesita la seguridad, ya que es indispensable un equipo que esté fuera de servicio. Hay varios medios para lograrlo, y uno es construir los equipos extremadamente fiables y consecuentemente, de mayor valor. El segundo es suministrar un sistema que, aunque falle, sea fácil de recuperar; de esta forma, si todo está construido muy fiablemente y es fácil de reparar, el fabricante obtiene un sistema muy eficaz, pero que aumenta considerablemente su valor. (Montoya, M. 2020)
             .cajon.color-acento-botones-3.p-4.mb-3
-              p.mb-0 El factor disponibilidad de un equipo o sistema es la medida que indica cuánto tiempo está funcionando ese equipo o sistema operativo respecto de la duración total durante el periodo en el que se desea que funcione. Típicamente se expresa en porcentaje, (Luna. M., 2019).
+              p.mb-0 El factor disponibilidad de un equipo o sistema es la medida que indica cuánto tiempo está funcionando ese equipo o sistema operativo respecto de la duración total durante el periodo en el que se desea que funcione. Típicamente se expresa en porcentaje (Luna. M., 2019)
       .col-lg-4.col-2
         figure(data-aos='zoom-in')
           img(src='@/assets/template/tema04/t4-i7.png')  
@@ -148,7 +144,7 @@
         figure(data-aos='zoom-in')
           img(src='@/assets/template/tema05/t5-i1.png')
 
-    p.mb-5 Se pueden presentar diferentes tipos de fallas, los cuales se aprecian en tres etapas:
+    p.mb-5 Se pueden presentar diferentes tipos de fallos, los cuales se aprecian en tres etapas:
 
     .tarjeta.tarjeta--acento-botones.p-4.mb-5
       SlyderA(tipo='b')
@@ -166,7 +162,7 @@
         .row
           .col-md-7.mb-4.mb-md-0
             h2 Fallos Normales
-            p En esta etapa, la tasa de errores es menor y constante; los fallos se producen, no por causas inherentes al equipo, sino por causas externas; estas pueden ser accidentes fortuitos, mala operación, condiciones que no son adecuadas.(Luna, 2019)
+            p En esta etapa, la tasa de errores es menor y constante; los fallos se producen, no por causas inherentes al equipo, sino por causas externas; estas pueden ser accidentes fortuitos, mala operación, condiciones que no son adecuadas (Luna, 2019).
 
           .col-md-5
             figure

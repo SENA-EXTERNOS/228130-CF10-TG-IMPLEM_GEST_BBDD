@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="Actividad did&amp;#225;ctica" />
+              <option name="title_text" value="CF10_228130" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -1141,6 +1141,9 @@
   </colorschemes>
   <string_tables>
     <string_table name="npnxnanbnsnfns00000000001">
+      <string id="playback_speed_title">~Plaý~bacķ~ Sþe~ed</string>
+      <string id="playback_speed_normal">~Nøřӎ~al</string>
+      <string id="acc_playback_speed">~þlaý~bacķ~ špe~ed</string>
       <string id="more_info">Más información</string>
       <string id="bio">Biografía</string>
       <string id="enable_keyboardshortcuts">Activar atajos del teclado</string>
@@ -1310,8 +1313,8 @@
             <slidelink slideid="_player.6g8RcXIVtvA.6Fhrd6hzQrx" displaytext="¿A qué se refiere con alta disponibilidad?" expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.6n7WETxtWGC" displaytext="Seleccione, el beneficio de tener un sistema de alta disponibilidad:" expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.6aYwTLwjd3X" displaytext="¿Qué beneficio nos brindan los indicadores?:" expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.67oZnyTBIcX" displaytext="¿Qué es MTTR?:" expand="false" type="slide" />
-            <slidelink slideid="_player.6g8RcXIVtvA.6HgQq1wb1cP" displaytext="Seleccione uno de los factores para determinar el valor en un MTBF:" expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.67oZnyTBIcX" displaytext="¿Qué es MTTR?" expand="false" type="slide" />
+            <slidelink slideid="_player.6g8RcXIVtvA.6HgQq1wb1cP" displaytext="Seleccione uno de los factores para determinar el valor en un MTBF" expand="false" type="slide" />
             <slidelink slideid="_player.6g8RcXIVtvA.6Yro8SGGmY4" displaytext="¿En qué consiste el mantenimiento predictivo?" expand="false" type="slide" />
           </links>
         </slidelink>

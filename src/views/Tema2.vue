@@ -20,13 +20,13 @@
         p Es la capacidad de un sistema para poder repetir datos para así prever la posibilidad de fallos que puedan surgir debido al desgaste normal del uso, ya sea del #[em hardware] o #[em software]. Este se presenta como solución a los problemas de protección y confiabilidad, o sea, vale decir que, la redundancia es un #[em Backup] o un respaldo. 
           br
           br
-          |El #[em Backup] es un sistema de gran importancia porque, permite hacer una copia de seguridad y conservarla en una ubicación distinta a donde se encuentra la original y, esto se hace, para evitar pérdidas de la información. Los servidores suelen tener más de un disco duro y acostumbran estar conectados mediante un RAID. (Niño, M et al, 2020)
+          |El #[em Backup] es un sistema de gran importancia porque, permite hacer una copia de seguridad y conservarla en una ubicación distinta a donde se encuentra la original y, esto se hace, para evitar pérdidas de la información. Los servidores suelen tener más de un disco duro y acostumbran estar conectados mediante un RAID. 
           br
           br
           |En la redundancia activa los enlaces están activos al tiempo y en la redundancia pasiva solo una parte está siempre en modo activo y la otra parte estará en modo de espera.
 
       .tarjeta.color-adicional-2.p-4(titulo='Tipos de redundancia')
-        h4 Redundancia de hardware
+        h4 Redundancia de #[em hardware]
         p Es la posibilidad de ofrecer seguridad de un fallo en el uso de un #[em Hardware], para esto es necesario utilizar interconexión de centros de datos para asegurar que cuando haya una falla se pueda conectar a otro #[em Data center.]
         h4 Redundancia geográfica
         p Este respaldo proporciona servicios de redundancia geográfica de modo que, en caso de una falla completa del centro de datos, la información sea desviada a otros servidores ubicados en otra parte del mundo; así que cuando ocurran desastres naturales que afecten a un área o región, habrá otro respaldo disponible en otra ubicación, listo para funcionar. (Abad, 2013)
@@ -44,7 +44,7 @@
           li 
             i.fas.fa-check.color-icon-check
             |
-            | diario: 0.9 segundos
+            | Diario: 0.9 segundos
           li 
             i.fas.fa-check.color-icon-check
             |
@@ -57,7 +57,7 @@
             i.fas.fa-check.color-icon-check
             |
             | Anual: 5 minutos y 15.6 segundos
-        p Para que el sistema esté disponible, las partes de un sistema deben estar bien diseñadas y probadas antes de ser usadas, dado que un sistema informático tiene muchas partes y generalmente deben tener precedentes de su funcionamiento. Esto incluye tanto a el proveedor de la nube como a la empresa, por ello se debe contar con equipos actualizadas y darles un constante mantenimientos a las redes, sistemas y&nbsp;
+        p Para que el sistema esté disponible, las partes de un sistema deben estar bien diseñadas y probadas antes de ser usadas, dado que un sistema informático tiene muchas partes y generalmente deben tener precedentes de su funcionamiento. Esto incluye tanto a el proveedor de la nube como a la empresa, por ello se debe contar con equipos actualizados y darles un constante mantenimientos a las redes, sistemas y&nbsp;
           i software.
 
       .tarjeta.color-adicional-2.p-4(titulo='La alta disponibilidad')
@@ -162,7 +162,7 @@
               p El objetivo primario de la alta disponibilidad es eliminar los puntos únicos de fallo en la infraestructura, un punto de fallo es un componente de la pila tecnológica que causaría una interrupción del servicio sino estuviera disponible, cualquier componente que es un requisito para el óptimo funcionamiento de la aplicación que no tiene la redundancia es considerado como un único punto de fallo.
                 br
                 br
-                |Para eliminar estos puntos de fallo, cada capa debe estar preparada para la redundancia, vamos a colocar un ejemplo para entender a fondo este concepto: hay una infraestructura que tiene dos servidores #[em web] y redundantes detrás de un equilibrador de carga, el tráfico proveniente de los clientes se distribuirá por igual entre los servidores, pero si uno de estos llegara a tener un fallo el equilibrador de carga redirigirá todo el tráfico al servidor que este operativo. (Abad. A.,2018)
+                |Para eliminar estos puntos de fallo, cada capa debe estar preparada para la redundancia, vamos a colocar un ejemplo para entender a fondo este concepto: hay una infraestructura que tiene dos servidores #[em web] y redundantes detrás de un equilibrador de carga, el tráfico proveniente de los clientes se distribuirá por igual entre los servidores, pero si uno de estos llegara a tener un fallo el equilibrador de carga redirigirá todo el tráfico al servidor que esté operativo. (Abad. A., 2018)
 
           .row(
             titulo='¿Qué pasaría si el equilibrador de carga se desconecta?'
@@ -194,7 +194,7 @@
                   | Medio ambiente: el tener todos los servidores en una misma área sería una mala idea, ya que una condición ambiental como un terremoto, inundaciones u otras, podrían destruir todo el sistema, lo ideal es tener servidores redundantes en diferentes centros de datos aumentara la confiabilidad.
                 li 
                   i.fas.fa-check.color-icon-check
-                  | #[em Hardware:] los servidores deben ser resistentes a sobrecargas eléctricas, cortes de energías y fallos de hardware; esto incluye discos duros e interfaz de red.
+                  | #[em Hardware:] los servidores deben ser resistentes a sobrecargas eléctricas, cortes de energías y fallos de #[em hardware]; esto incluye discos duros e interfaz de red.
                 li 
                   i.fas.fa-check.color-icon-check
                   | #[em Software:] todo sistema operativo, programas y la propia aplicación debe estar configurada para manejar fallos inesperados que podrían requerir un reinicio del sistema.
@@ -212,7 +212,7 @@
               p Cada sistema tendrá necesidades diferentes en cuanto a #[em software] y configuración; sin embargo, a nivel de aplicación, los equilibradores de carga representan una pieza fundamental; es por esto que se necesita de #[em software] como HAProxy, que es una opción para el equilibrio de carga, debido a que puede manejar varias capas y para diferentes servidores, como los de bases de datos. (Sinisterra, M. 2012)
                 br
                 br
-                |Es importante implementar una solución redundante que sea confiable para el punto de entrada de su aplicación, para eliminar este único punto de falla; como se mencionó anteriormente, necesitamos implementar un grupo de equilibradores de carga, detrás de una IP flotante y es por eso que, Corosny y Pacemaker, son opciones para crear dicha configuración. (Abad, A. 2018)
+                |Es importante implementar una solución redundante que sea confiable para el punto de entrada de su aplicación, para eliminar este único punto de falla; como se mencionó anteriormente, necesitamos implementar un grupo de equilibradores de carga, detrás de una IP flotante y es por eso que, #[em Corosny] y #[em Pacemaker], son opciones para crear dicha configuración. (Abad, A. 2018)
           .row(
             titulo='¿Disponibilidad y redundancia que diferencias encontramos? '
           )

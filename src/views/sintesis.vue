@@ -4,11 +4,6 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     p.mb-5 El siguiente mapa integra los criterios y especificidades de los conocimientos expuestos en el presente componente formativo:
 
-    .col-lg-10.col-12 
-        .titulo-sexto.color-acento-contenido.mb-5
-          h5 Figura 2.
-          br
-          i Síntesis servicios de red
     .row.justify-content-center
       .col-lg-10.mb-5
         figure

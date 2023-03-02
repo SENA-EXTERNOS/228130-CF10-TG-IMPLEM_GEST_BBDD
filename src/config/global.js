@@ -201,25 +201,25 @@ export default {
     },
     {
       referencia:
-        'Luna, M, & Vázquez, G. (2019). Metodología de mantenimiento predictivo 4.0 para asegurar procesos de producción. <em>Revista de sistemas, cibernética e informática,</em> 16(2), p. 1-6. ',
+        'Luna, M, & Vázquez, G. (2019). Metodología de mantenimiento predictivo 4.0 para asegurar procesos de producción. <em>Revista de sistemas, cibernética e informática, 16(2)</em>, p. 1-6. ',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_doaj_primary_oai_doaj_org_article_3d32305d26684f2b96a4a784aeec34c9',
     },
     {
       referencia:
-        'Mago, M. & Rocha, S. (2021). Diseño e implementación del plan de mantenimiento preventivo de los equipos de la empresa granitos y mármoles acabados SAS. <em>Revista ciencia y poder aéreo,</em> 16(2). ',
+        'Mago, M. & Rocha, S. (2021). Diseño e implementación del plan de mantenimiento preventivo de los equipos de la empresa granitos y mármoles acabados SAS. <em>Revista ciencia y poder aéreo, 16(2).</em> ',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_doaj_primary_oai_doaj_org_article_0ea47d3304b145a19f98fa78130dfc3c',
     },
     {
       referencia:
-        'Marchand, W. & Vega, E. (2020). Modelo Balanced Scorecard para los controles críticos de seguridad informática según el Center for Internet Security (CIS). <em>Interfases</em>, 13, p. 57-76. ',
+        'Marchand, W. & Vega, E. (2020). Modelo Balanced Scorecard para los controles críticos de seguridad informática según el Center for Internet Security (CIS). <em>Interfases, 13</em>, p. 57-76. ',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_doaj_primary_oai_doaj_org_article_ad14fe07a9314dc6909fd55054d8316a',
     },
     {
       referencia:
-        'Montoya, M., Arango, J., & Rosero, S. (2020). Programación de mantenimiento preventivo usando algoritmos genéticos. <em>Lampsakos</em>, 23, p. 37-44.  ',
+        'Montoya, M., Arango, J., & Rosero, S. (2020). Programación de mantenimiento preventivo usando algoritmos genéticos. <em>Lampsakos, 23</em>, p. 37-44.  ',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_doaj_primary_oai_doaj_org_article_a13fb336c47f44ddbd252db37e41e1b1',
     },
@@ -237,7 +237,7 @@ export default {
     },
     {
       referencia:
-        'Sinisterra, M., Diaz, T. y Ruiz, E. (2012). Clúster de balanceo de carga y alta disponibilidad para servicios web y Mail. <em>Informador Técnico</em>, 76(76), p. 93-102. ',
+        'Sinisterra, M., Diaz, T. y Ruiz, E. (2012). Clúster de balanceo de carga y alta disponibilidad para servicios web y Mail. <em>Informador Técnico, 76</em>(76), p. 93-102. ',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_doaj_primary_oai_doaj_org_article_b8084052896547348e30a7ffb4dec865',
     },

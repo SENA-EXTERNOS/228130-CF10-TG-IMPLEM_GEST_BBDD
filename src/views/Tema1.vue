@@ -222,7 +222,7 @@
       .col-md-8
         p 
         strong No-IP&nbsp;
-        | es otro servicio DynDNS ofrecida por una compañía de Estados Unidos que cuenta con un paquete sin costo, que permite crear tres nombres de dominio; el único inconveniente es que este servicio obligará a verificar la cuenta cada 30 días.
+        | es otro servicio DynDNS ofrecido por una compañía de Estados Unidos que cuenta con un paquete sin costo, que permite crear tres nombres de dominio; el único inconveniente es que este servicio obligará a verificar la cuenta cada 30 días.
         p 
         strong
           i Duck&nbsp;
@@ -232,7 +232,7 @@
         strong
           | DNS&nbsp;
           i Exit&nbsp;
-        | ofrece múltiples funciones, permite tener la IP asociada a uno de los dominios gratuitos que tiene y, de esta manera, podrá registrar su dominio gratis; para vincular la IP, tendrá un DNS dinámico. (Philippe,2010)
+        | ofrece múltiples funciones, permite tener la IP asociada a uno de los dominios gratuitos que tiene y, de esta manera, podrá registrar su dominio gratis; para vincular la IP, tendrá un DNS dinámico. (Philippe, 2010)
       .col-md-4
         figure(data-aos='zoom-in')
           img(src='@/assets/template/tema01/t1-i12.jpg')
@@ -327,7 +327,7 @@
             )
       .row(titulo='Protocolo POP 3 o <em>Post Office Protocol 3</em>')
         .col-md-8.mb-4.mb-md-0
-          p Se encarga de establecer conexión entre un cliente y servidor de correo electrónico para gestionar el envió de mensajes y se puede utilizar para los clientes pesados genéricos; los dispositivos móviles no sincronizados vía ActiveSync y Outlook, permiten a los usuarios recuperar sus mensajes desde su buzón de mensajes y no ofrece ninguna funcionalidad de trabajo en equipo; este protocolo es fácil de implementar y la conexión a un servidor POP3 funciona de manera sencilla, los mensajes se pueden enviar de dos formas, una es dejando una copia en el servidor y la otra, moviendo el correo hacia el cliente. (Sánchez et al, 2020)
+          p Se encarga de establecer conexión entre un cliente y servidor de correo electrónico para gestionar el envío de mensajes y se puede utilizar para los clientes pesados genéricos; los dispositivos móviles no sincronizados vía ActiveSync y Outlook, permiten a los usuarios recuperar sus mensajes desde su buzón de mensajes y no ofrece ninguna funcionalidad de trabajo en equipo; este protocolo es fácil de implementar y la conexión a un servidor POP3 funciona de manera sencilla, los mensajes se pueden enviar de dos formas, una es dejando una copia en el servidor y la otra, moviendo el correo hacia el cliente. (Sánchez et al, 2020)
         .col-md-4
           figure
             img(
@@ -450,7 +450,7 @@
 
     h3.mb-5
       i.fas.fa-square.cac.me-3
-      i Protocolo POP3S
+      p Protocolo POP3S
 
     p Protocolo de oficina de correo, se utiliza para obtener mensajes de correo electrónico de clientes locales.
     br

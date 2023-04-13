@@ -32,10 +32,7 @@
         p Este respaldo proporciona servicios de redundancia geográfica de modo que, en caso de una falla completa del centro de datos, la información sea desviada a otros servidores ubicados en otra parte del mundo; así que cuando ocurran desastres naturales que afecten a un área o región, habrá otro respaldo disponible en otra ubicación, listo para funcionar. (Abad, 2013)
 
       .tarjeta.color-adicional-2.p-4(titulo='¿Qué es la disponibilidad?')
-        h4 Redundancia y alta disponibilidad
-        p “El concepto de redundancia junto al de alta disponibilidad, es la capacidad que tiene un sistema para detectar posibles fallos de la manera más eficiente, esta tendrá la posibilidad de recuperarse del problema, afectando lo menos posible al servicio. La redundancia hace referencia a nodos completos que están replicados o componentes de estos, así como caminos y que uno de sus funciones es utilizarlos en caso de que el sistema falle, es por esto que, la alta disponibilidad nos brinda la capacidad del sistema para brindar un servicio en ejecución en un tiempo estimado o a la capacidad de recuperación del mismo en caso de caerse la red, cuando se habla de la “caída de la red” se puede decir que hay situaciones que impliquen que la red deje de funcionar, ya se un cable cortado o desconectado. En casos como estos hace falta que el sistema detecte la falla y que reacción de manera rápida y eficiente la búsqueda de la solución”, (Montoya, M. et al, 2020).
 
-      .tarjeta.color-adicional-2.p-4(titulo='¿Qué comprenden?')
         h4 Disponibilidad
         p Es la capacidad de un sistema o componente del sistema para estar operando durante un periodo largo, es decir que no tenga fallos, esta se mide de 0 % al 100 %, aunque es muy complicado lograr el 100 % de disponibilidad; el operador de conectividad en la nube si puede alcanzar lo que se conoce como disponibilidad de “cinco 9 s” es decir, alcanzar el 99.999 % de disponibilidad. Se debe identificar en el acuerdo de SLAs a que estándar de 9 s se adhiere el proveedor de conectividad.
         p Ejemplo de disponibilidad con un SLA de 99.999 %, con este acuerdo el usuario final, puede esperar que el servicio no esté disponible dúrate los siguientes periodos de tiempo:
@@ -59,6 +56,12 @@
             | Anual: 5 minutos y 15.6 segundos
         p Para que el sistema esté disponible, las partes de un sistema deben estar bien diseñadas y probadas antes de ser usadas, dado que un sistema informático tiene muchas partes y generalmente deben tener precedentes de su funcionamiento. Esto incluye tanto a el proveedor de la nube como a la empresa, por ello se debe contar con equipos actualizados y darles un constante mantenimientos a las redes, sistemas y&nbsp;
           i software.
+
+      .tarjeta.color-adicional-2.p-4(titulo='¿Qué comprenden?')
+      
+        h4 Redundancia y alta disponibilidad
+        p “El concepto de redundancia junto al de alta disponibilidad, es la capacidad que tiene un sistema para detectar posibles fallos de la manera más eficiente, esta tendrá la posibilidad de recuperarse del problema, afectando lo menos posible al servicio. La redundancia hace referencia a nodos completos que están replicados o componentes de estos, así como caminos y que uno de sus funciones es utilizarlos en caso de que el sistema falle, es por esto que, la alta disponibilidad nos brinda la capacidad del sistema para brindar un servicio en ejecución en un tiempo estimado o a la capacidad de recuperación del mismo en caso de caerse la red, cuando se habla de la “caída de la red” se puede decir que hay situaciones que impliquen que la red deje de funcionar, ya se un cable cortado o desconectado. En casos como estos hace falta que el sistema detecte la falla y que reacción de manera rápida y eficiente la búsqueda de la solución”, (Montoya, M. et al, 2020).
+
 
       .tarjeta.color-adicional-2.p-4(titulo='La alta disponibilidad')
         h4 ¿Cómo funciona?
@@ -262,42 +265,44 @@
 
     .row.d-flex.justify-content-center.mb-2
       .col-12
-        .bloque-texto-g.color-tercero.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
-            :style='{ "background-image": `url(${require("@/assets/template/tema02/t2-i10.png")})` }'
-          )(
-            data-aos='zoom-in'
-          )
-          .bloque-texto-g__texto.p-4
-            h2 ¿Cómo implementar la arquitectura usando la alta disponibilidad?
-            br
-            br
-            p No importa el tipo de negocio o el tamaño de la empresa, cualquier tipo de tiempo de inactividad del servicio puede ser costoso sin una solución de recuperación ante desastres, en los últimos años, las soluciones de informática alojada y en la nube se han vuelto más populares que el soporte interno de soluciones, por tal razón reduce costos y adiciona la flexibilidad.
-            br
-            br
-            p Los beneficios de tener un sistema de alta disponibilidad son numerosos:
-            br
-            br
-            ul
-              li 
-                i.fas.fa-check.color-icon-check
-                |
-                | Ahorra tiempo y costos.
-              br
-              li 
-                i.fas.fa-check.color-icon-check
-                |
-                | Menos tiempo de inactividad, esto significa menos impacto en los usuarios y clientes.
-              br
-              li 
-                i.fas.fa-check.color-icon-check
-                |
-                | Se mejorará el rendimiento de aplicaciones.
-              br
-              li 
-                i.fas.fa-check.color-icon-check
-                |
-                | Evitará multas y sanciones, si no se cumple con los SLA del contrato.   
+        .bloque-texto-g.color-tercero.p-3.p-sm-4.p-md-4
+          .col-lg-4
+            .bloque-texto-g__img(
+              :style='{ "background-image": `url(${require("@/assets/template/tema02/t2-i10.png")})` }'
+            )(
+              data-aos='zoom-in'
+            )
+          .col-lg-8
+            .contenedor-dashed.p-4
+              .bloque-texto-g1__texto.p-4
+                h2 ¿Cómo implementar la arquitectura usando la alta disponibilidad?
+
+                p No importa el tipo de negocio o el tamaño de la empresa, cualquier tipo de tiempo de inactividad del servicio puede ser costoso sin una solución de recuperación ante desastres, en los últimos años, las soluciones de informática alojada y en la nube se han vuelto más populares que el soporte interno de soluciones, por tal razón reduce costos y adiciona la flexibilidad.
+
+                p Los beneficios de tener un sistema de alta disponibilidad son numerosos:
+
+                ul
+                  li 
+                    i.fas.fa-check.color-icon-check
+                    |
+                    | Ahorra tiempo y costos.
+                  
+                  li 
+                    i.fas.fa-check.color-icon-check
+                    |
+                    | Menos tiempo de inactividad, esto significa menos impacto en los usuarios y clientes.
+                  
+                  li 
+                    i.fas.fa-check.color-icon-check
+                    |
+                    | Se mejorará el rendimiento de aplicaciones.
+
+                  li 
+                    i.fas.fa-check.color-icon-check
+                    |
+                    | Evitará multas y sanciones, si no se cumple con los SLA del contrato.   
+
+
 </template>
 
 <script>

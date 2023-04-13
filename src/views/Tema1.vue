@@ -131,26 +131,27 @@
           iframe(
             width='560',
             height='315',
-            src='https://www.youtube.com/embed/fQjFfH7hNYU',
+            src='https://www.youtube.com/embed/K3_IdIjovZw',
             title='Pruebas DNS',
             frameborder='0',
             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture',
             allowfullscreen
           )
 
-    .row.d-flex.justify-content-center.mb-2
+    .row.d-flex.justify-content-center.mb-5
       .col-11.mb-5
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
-            :style='{ "background-image": `url(${require("@/assets/template/tema01/t1-i7.jpg")})` }'
-          )(
-            data-aos='zoom-in'
-          )
-          .bloque-texto-g__texto.p-4
-            h2 DNSSEC
-            br
-            br
-            p Para poder entender qué es un DNSSEC, es importante saber qué es un DNS que se define como nombre de dominio, el cual se encarga de traducir nombres de la URL de un sitio web que se visita en números o direcciones IP, la computadora procesa mejor la información por números, por lo tanto, el DNS traduce esa URL.
+        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-4
+          .col-lg-4
+            .bloque-texto-g__img(
+              :style='{ "background-image": `url(${require("@/assets/template/tema01/t1-i7.jpg")})` }'
+            )(
+              data-aos='zoom-in'
+            )
+          .col-lg-8
+            .contenedor-dashed.p-4
+              .bloque-texto-g1__texto.p-4
+                h2 DNSSEC
+                p Para poder entender qué es un DNSSEC, es importante saber qué es un DNS que se define como nombre de dominio, el cual se encarga de traducir nombres de la URL de un sitio web que se visita en números o direcciones IP, la computadora procesa mejor la información por números, por lo tanto, el DNS traduce esa URL.
 
     p Se presenta a continuación información sobre el DNSSEC, que pasa si no se implementa, su habilitación en las páginas web.
 

@@ -101,18 +101,23 @@
 
     .row.d-flex.justify-content-center.mb-2
       .col-11.mb-5
-        .bloque-texto-g.color-tercero.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
-            :style='{ "background-image": `url(${require("@/assets/template/tema04/t4-i8.png")})` }'
-          )(
-            data-aos='zoom-in'
-          )
-          .bloque-texto-g__texto.p-4
-            p La disponibilidad de un equipo solo puede aumentarse disminuyendo el tiempo fuera de servicio, lo cual es posible con la mejora de los sistemas administrativos, los procedimientos, la selección, el entrenamiento, la motivación, la calidad y dotación de herramientas, el equipo de diagnóstico. Por lo tanto, se requieren de herramientas que permitan tomar decisiones rápidas y acertadas sobre sus principales recursos.  
+        .bloque-texto-g.color-tercero.p-3.p-sm-4.p-md-4
+          .col-lg-4
+            .bloque-texto-g1__img(
+              :style='{ "background-image": `url(${require("@/assets/template/tema04/t4-i8.png")})` }'
+            )(
+              data-aos='zoom-in'
+            )
+          .col-lg-8
+            .contenedor-dashed.p-4
+              .bloque-texto-g1__texto.p-4
+                p La disponibilidad de un equipo solo puede aumentarse disminuyendo el tiempo fuera de servicio, lo cual es posible con la mejora de los sistemas administrativos, los procedimientos, la selección, el entrenamiento, la motivación, la calidad y dotación de herramientas, el equipo de diagnóstico. Por lo tanto, se requieren de herramientas que permitan tomar decisiones rápidas y acertadas sobre sus principales recursos.  
+    
     ul.lista-ul--color
       li
         i.fas.fa-square
         h3.mb-0 Identificación de fallas
+    
     .row.mb-5
       .col-lg-6.col-10
         .row 

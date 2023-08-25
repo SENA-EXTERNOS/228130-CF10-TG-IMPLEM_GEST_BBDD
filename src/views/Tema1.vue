@@ -98,7 +98,7 @@
             p Cuando se hace un cambio en el DNS en un dominio, suele tardar unas 48 horas hasta que este se actualice a nivel mundial; por eso en algunos casos, el dominio sigue sin resolver los cambios; también pueden influir las cachés en tarjetas de red, los navegadores o #[em routers.]
               br
               br
-              |Es por eso, que, para salir de dudas se puede utilizar la herramienta #[em “nslookup”] para probar el funcionamiento del servicio DNS en un dominio.
+              |Es por eso, que, para salir de dudas, se puede utilizar la herramienta #[em “nslookup”] para probar el funcionamiento del servicio DNS en un dominio.
             .row.mt-5.p-4.card-t1.align-items-center.mb-5
               .col-lg-2.col-2
                 figure
@@ -153,7 +153,7 @@
                 h2 DNSSEC
                 p Para poder entender qué es un DNSSEC, es importante saber qué es un DNS que se define como nombre de dominio, el cual se encarga de traducir nombres de la URL de un sitio web que se visita en números o direcciones IP, la computadora procesa mejor la información por números, por lo tanto, el DNS traduce esa URL.
 
-    p Se presenta a continuación información sobre el DNSSEC, que pasa si no se implementa, su habilitación en las páginas web.
+    p Se presenta a continuación información sobre el DNSSEC, que pasa, si no se implementa, su habilitación en las páginas web.
 
     .tarjeta.tarjeta--acento-botones.p-4.mb-5
       SlyderA(tipo='b')
@@ -171,11 +171,11 @@
 
         .row
           .col-md-6.mb-4.mb-md-0
-            h2 ¿Si no se implementa un DNSSEC qué pasaría?
+            h2 ¿Si no se implementa un DNSSEC, qué pasaría?
             p Se presenta el siguiente ejemplo, se decide ingresar a una página de compra y no se verifica que el sitio web este duplicado, por ende, se terminará comprando un artículo en un sitio no oficial, y los datos y tarjeta de crédito posiblemente sean entregados a un hacker.
               br
               br
-              |Un sitio con DNSSEC este problema no ocurre, ya que este valida las consultas realizadas en el ordenador para asegurar de no llegar a un sitio malicioso; una vez realizada la consulta este devolverá una respuesta valida o firmada por DNSSEC, esta respuesta permite saber si la dirección IP es autentica.
+              |Un sitio con DNSSEC este problema no ocurre, ya que este válida las consultas realizadas en el ordenador para asegurar de no llegar a un sitio malicioso; una vez realizada la consulta este devolverá una respuesta válida o firmada por DNSSEC, esta respuesta permite saber si la dirección IP es auténtica.
 
           .col-md-6
             figure
@@ -211,7 +211,7 @@
       .col-md-6
         p Es conocido como&nbsp;
           i Dynamic Domain Name System,&nbsp;
-          | este funciona de ayuda para el envió de las direcciones IP, estas cambian constantemente a un nombre de dominio fijo, para ello es necesario registrarse en un servicio DDNS con un nombre que esté disponible, gracias a ese servicio su ordenador siempre estará disponible aun cuando no conozca su dirección IP.
+          | este funciona de ayuda para el envío de las direcciones IP, estas cambian constantemente a un nombre de dominio fijo, para ello es necesario registrarse en un servicio DDNS con un nombre que esté disponible, gracias a ese servicio su ordenador siempre estará disponible aun cuando no conozca su dirección IP.
         p El&nbsp;
           i router&nbsp;
           | informa al servicio DDNS la dirección IP que le ha sido asignada por el proveedor de internet y este le relaciona el nombre definido en el DDNS, si por algún motivo la dirección cambia, el servicio DDNS obtiene una nueva dirección de forma automática, y responde a la petición DNS. (Philippe, 2010)
@@ -243,30 +243,30 @@
         ul.lista-ul--color
           li
             i.fas.fa-square
-            h3.mb-0 ¿Como configurar un servicio DynDNS?
+            h3.mb-0 ¿Cómo configurar un servicio DynDNS?
         p Se presenta un ejemplo para implementar y configurar un servicio DynDNS, con un paso a paso para poder acceder a partir de un nombre de dominio al ordenador de nuestra casa, se va a usar el servicio DynDNS Service.
         ul.lista-ul--color
-          li
+          li.d-flex
             i.fas.fa-check
-            | Ir la a #[em web] oficial del servicio.
-          li
+            p.mb-0 Ir la a #[em web] oficial del servicio.
+          li.d-flex
             i.fas.fa-check
-            | Crear una cuenta, registrando datos personales como lo son nombres, apellidos, dirección #[em email], usuario y contraseña.
-          li
+            p.mb-0 Crear una cuenta, registrando datos personales como lo son nombres, apellidos, dirección #[em email], usuario y contraseña.
+          li.d-flex
             i.fas.fa-check
-            | Se debe marcar la opción de aceptar términos de uso y se da clic en #[em Create Free Account.]
-          li
+            p.mb-0 Se debe marcar la opción de aceptar términos de uso y se da clic en #[em Create Free Account.]
+          li.d-flex
             i.fas.fa-check
-            | Se recibe un correo para hacer la activación de la cuenta.
-          li
+            p.mb-0 Se recibe un correo para hacer la activación de la cuenta.
+          li.d-flex
             i.fas.fa-check
-            | Luego se pulsa en #[em Creating] a #[em new] DynDNS url.
-          li
+            p.mb-0 Luego se pulsa en #[em Creating] a #[em new] DynDNS url.
+          li.d-flex
             i.fas.fa-check
-            | Se escribe el nombre de dominio y se elige el puerto por defecto 80.
-          li
+            p.mb-0 Se escribe el nombre de dominio y se elige el puerto por defecto 80.
+          li.d-flex
             i.fas.fa-check
-            | Luego se da clic en la opción #[em Creating.]
+            p.mb-0 Luego se da clic en la opción #[em Creating.]
         p Esto generará el DNS y mostrará la URL para así poderla abrir.
 
 
@@ -335,7 +335,7 @@
               src='@/assets/template/tema01/t1-i17.png',
               alt='Texto que describa la imagen'
             )
-      .row(titulo='¿Como funciona el protocolo SMTP?')
+      .row(titulo='¿Cómo funciona el protocolo SMTP?')
         .col-md-8.mb-4.mb-md-0
           .row 
             .col-lg-12
@@ -406,10 +406,6 @@
                 li 
                   i.fas.fa-check.color-icon-check
                   |
-                  | Cliente:
-                li 
-                  i.fas.fa-check.color-icon-check
-                  |
                   | Cliente: Hola
                 li 
                   i.fas.fa-check.color-icon-check
@@ -419,10 +415,6 @@
                   i.fas.fa-check.color-icon-check
                   |
                   | Cliente: Hasta luego
-                li 
-                  i.fas.fa-check.color-icon-check
-                  |
-                  | Cliente:
                 li 
                   i.fas.fa-check.color-icon-check
                   |

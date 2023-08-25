@@ -11,7 +11,7 @@
       .col-lg-6.col-12
         .row 
           .col-lg-12           
-            p Para poder referirse al mantenimiento predictivo, es necesario dar a conocer la importancia en la prevención de eventos catastróficos o fallas. Es por esto, que se hace necesario implementar un plan donde incorporen técnicas, datos y criterios dando como resultado la prevención de los daños, garantizando que en el momento preciso se puedan determinar las medidas correctivas y así el funcionamiento de un activo no se vea afectado.
+            p Para poder referirse al mantenimiento predictivo, es necesario dar a conocer la importancia en la prevención de eventos catastróficos o fallas. Es por esto, que se hace necesario implementar un plan donde incorporen técnicas, datos y criterios, dando como resultado la prevención de los daños, garantizando que en el momento preciso se puedan determinar las medidas correctivas y así el funcionamiento de un activo no se vea afectado.
             p En las estrategias de mantenimiento preventivo se hace fundamental realizar los siguientes pasos: verificaciones programadas, modelo de actualización, mantenimiento y el cambio de partes, monitoreo continuo y el análisis de los datos.
             .cajon.color-acento-contenido.p-4
               p.mb-0 Finalmente, se concluye que los costos de funcionamiento en las organizaciones, han disminuido gracias a la implementación de planes de mantenimiento predictivo, dado que han de generar soluciones en el tiempo preciso, prediciendo fallos en los procesos.
@@ -49,7 +49,7 @@
             h4.mb-4 Mantenimiento prescriptivo  
             p.mb-0 Este proceso de nivel avanzado, no solamente se encarga de predecir cuando algún componente del sistema pueda fallar por algún evento interno o externo, o que sencillamente necesite de mantenimiento; también es capaz de evaluar, de manera amplia, múltiples variables que puedan incluir en diferentes problemas y causen fallas al sistema. (Luna, M. 2019)
 
-    p.mb-5 El mantenimiento preventivo ofrece beneficios especiales ya que puede usarse junto con otros tipos de sistemas de mantenimiento, algunos de los principales beneficios son:
+    p.mb-5 El mantenimiento preventivo ofrece beneficios especiales, ya que puede usarse junto con otros tipos de sistemas de mantenimiento, algunos de los principales beneficios son:
 
     .row.justify-content-center
       .col-lg-8.col-12 
@@ -73,7 +73,7 @@
             p Genera un sistema organizado donde las reparaciones, inspecciones y mantenimiento regular estén bien programados.
 
           .tarjeta.color-acento-beige.p-4(x='88%', y='70%', numero='+')
-            p Reduce la cantidad de averías no planificadas por lo tanto el tiempo de indisponibilidad.
+            p Reduce la cantidad de averías no planificadas, por lo tanto, el tiempo de indisponibilidad.
        
     .row.mb-5
       .col-lg-4.col-2
@@ -97,7 +97,6 @@
       .col-lg-4.col-2
         figure(data-aos='zoom-in')
           img(src='@/assets/template/tema04/t4-i7.png')  
-    p.mb-5(data-aos='fade-right') El factor disponibilidad de un equipo o sistema, es la medida que indica cuánto tiempo está funcionando ese equipo o sistema operativo respecto a la duración total durante el periodo en el que se desea que funcione. Típicamente se expresa en porcentaje. (Luna, M. 2019)    
 
     .row.d-flex.justify-content-center.mb-2
       .col-11.mb-5

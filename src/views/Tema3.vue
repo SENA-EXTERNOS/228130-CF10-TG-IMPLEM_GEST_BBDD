@@ -150,7 +150,7 @@
             li 
               i.fas.fa-check.color-icon-check
               |
-              | Conocer que activos requieren un mayor mantenimiento.
+              | Conocer qué activos requieren un mayor mantenimiento.
             li 
               i.fas.fa-check.color-icon-check
               |

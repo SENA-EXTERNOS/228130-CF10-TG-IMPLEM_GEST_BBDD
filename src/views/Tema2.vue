@@ -15,12 +15,12 @@
         p Se debe diferenciar entre redundancia y alta disponibilidad, esto es importante ya que, es conveniente para la organización y para elegir adecuadamente al proveedor donde se proporcione garantía de ambas.
 
     TabsA.color-acento-contenido.mb-5
-      .tarjeta.color-adicional-2.p-4(titulo='Qué es la redundancia?')
+      .tarjeta.color-adicional-2.p-4(titulo='¿Qué es la redundancia?')
         h4 Redundancia 
         p Es la capacidad de un sistema para poder repetir datos para así prever la posibilidad de fallos que puedan surgir debido al desgaste normal del uso, ya sea del #[em hardware] o #[em software]. Este se presenta como solución a los problemas de protección y confiabilidad, o sea, vale decir que, la redundancia es un #[em Backup] o un respaldo. 
           br
           br
-          |El #[em Backup] es un sistema de gran importancia porque, permite hacer una copia de seguridad y conservarla en una ubicación distinta a donde se encuentra la original y, esto se hace, para evitar pérdidas de la información. Los servidores suelen tener más de un disco duro y acostumbran estar conectados mediante un RAID. 
+          |El #[em Backup] es un sistema de gran importancia porque, permite hacer una copia de seguridad y conservarla en una ubicación distinta a donde se encuentra la original y, esto se hace, para evitar pérdidas de la información. Los servidores suelen tener más de un disco duro y acostumbran a estar conectados mediante un RAID. 
           br
           br
           |En la redundancia activa los enlaces están activos al tiempo y en la redundancia pasiva solo una parte está siempre en modo activo y la otra parte estará en modo de espera.
@@ -34,7 +34,7 @@
       .tarjeta.color-adicional-2.p-4(titulo='¿Qué es la disponibilidad?')
 
         h4 Disponibilidad
-        p Es la capacidad de un sistema o componente del sistema para estar operando durante un periodo largo, es decir que no tenga fallos, esta se mide de 0 % al 100 %, aunque es muy complicado lograr el 100 % de disponibilidad; el operador de conectividad en la nube si puede alcanzar lo que se conoce como disponibilidad de “cinco 9 s” es decir, alcanzar el 99.999 % de disponibilidad. Se debe identificar en el acuerdo de SLAs a que estándar de 9 s se adhiere el proveedor de conectividad.
+        p Es la capacidad de un sistema o componente del sistema para estar operando durante un periodo largo, es decir que no tenga fallos, esta se mide de 0 % al 100 %, aunque es muy complicado lograr el 100 % de disponibilidad; el operador de conectividad en la nube si puede alcanzar lo que se conoce como disponibilidad de “cinco 9 s” es decir, alcanzar el 99.999 % de disponibilidad. Se debe identificar en el acuerdo de SLA a que estándar de 9 s se adhiere el proveedor de conectividad.
         p Ejemplo de disponibilidad con un SLA de 99.999 %, con este acuerdo el usuario final, puede esperar que el servicio no esté disponible dúrate los siguientes periodos de tiempo:
         br
         ul
@@ -54,13 +54,13 @@
             i.fas.fa-check.color-icon-check
             |
             | Anual: 5 minutos y 15.6 segundos
-        p Para que el sistema esté disponible, las partes de un sistema deben estar bien diseñadas y probadas antes de ser usadas, dado que un sistema informático tiene muchas partes y generalmente deben tener precedentes de su funcionamiento. Esto incluye tanto a el proveedor de la nube como a la empresa, por ello se debe contar con equipos actualizados y darles un constante mantenimientos a las redes, sistemas y&nbsp;
+        p Para que el sistema esté disponible, las partes de un sistema deben estar bien diseñadas y probadas antes de ser usadas, dado que un sistema informático tiene muchas partes y generalmente deben tener precedentes de su funcionamiento. Esto incluye tanto al proveedor de la nube como a la empresa, por ello se debe contar con equipos actualizados y darles un constante mantenimiento a las redes, sistemas y&nbsp;
           i software.
 
       .tarjeta.color-adicional-2.p-4(titulo='¿Qué comprenden?')
       
         h4 Redundancia y alta disponibilidad
-        p “El concepto de redundancia junto al de alta disponibilidad, es la capacidad que tiene un sistema para detectar posibles fallos de la manera más eficiente, esta tendrá la posibilidad de recuperarse del problema, afectando lo menos posible al servicio. La redundancia hace referencia a nodos completos que están replicados o componentes de estos, así como caminos y que uno de sus funciones es utilizarlos en caso de que el sistema falle, es por esto que, la alta disponibilidad nos brinda la capacidad del sistema para brindar un servicio en ejecución en un tiempo estimado o a la capacidad de recuperación del mismo en caso de caerse la red, cuando se habla de la “caída de la red” se puede decir que hay situaciones que impliquen que la red deje de funcionar, ya se un cable cortado o desconectado. En casos como estos hace falta que el sistema detecte la falla y que reacción de manera rápida y eficiente la búsqueda de la solución”, (Montoya, M. et al, 2020).
+        p “El concepto de redundancia junto al de alta disponibilidad, es la capacidad que tiene un sistema para detectar posibles fallos de la manera más eficiente, esta tendrá la posibilidad de recuperarse del problema, afectando lo menos posible al servicio. La redundancia hace referencia a nodos completos que están replicados o componentes de estos, así como caminos y que una de sus funciones es utilizarlos en caso de que el sistema falle, es por esto que, la alta disponibilidad nos brinda la capacidad del sistema para brindar un servicio en ejecución en un tiempo estimado o a la capacidad de recuperación del mismo en caso de caerse la red, cuando se habla de la “caída de la red” se puede decir que hay situaciones que impliquen que la red deje de funcionar, ya sea un cable cortado o desconectado. En casos como estos hace falta que el sistema detecte la falla y que reacción de manera rápida y eficiente la búsqueda de la solución”, (Montoya, M. et al, 2020).
 
 
       .tarjeta.color-adicional-2.p-4(titulo='La alta disponibilidad')
@@ -256,7 +256,7 @@
             .cajon.color-acento-contenido-2.p-4
               p.mb-0 Es importante estudiar la alta disponibilidad en situaciones de recuperación ante fallos externos, de tipo ambiental, electrónico entre otros; así como suena, es un plan integral para la recuperación de operaciones y sistemas críticos después de eventos catastróficos.
           .col-lg-12
-            p Entorno a lo anterior se debe hacer la siguiente pregunta, 
+            p En torno a lo anterior se debe hacer la siguiente pregunta, 
               strong ¿por qué participar en este tipo de planificación?
             p Generalmente, se enfoca en volver a estar activos y funcionar, luego que haya ocurrido un evento catastrófico. Un plan de recuperación de desastres puede hacer frente a la pérdida de una región entera. (Abad. 2018)
       .col-lg-5.col-12

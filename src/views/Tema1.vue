@@ -418,10 +418,6 @@
                 li 
                   i.fas.fa-check.color-icon-check
                   |
-                  | Cliente: .
-                li 
-                  i.fas.fa-check.color-icon-check
-                  |
                   | Cliente: &lt;CR&gt;&lt;LF&gt;.&lt;CR&gt;&lt;LF&gt;
                 li 
                   i.fas.fa-check.color-icon-check

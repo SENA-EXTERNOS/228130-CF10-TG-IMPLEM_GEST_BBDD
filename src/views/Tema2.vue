@@ -16,11 +16,11 @@
 
     TabsA.color-acento-contenido.mb-5
       .tarjeta.color-adicional-2.p-4(titulo='¿Qué es la redundancia?')
-        h4 Redundancia 
-        p Es la capacidad de un sistema para poder repetir datos para así prever la posibilidad de fallos que puedan surgir debido al desgaste normal del uso, ya sea del #[em hardware] o #[em software]. Este se presenta como solución a los problemas de protección y confiabilidad, o sea, vale decir que, la redundancia es un #[em Backup] o un respaldo. 
+        h4 Redundancia
+        p Es la capacidad de un sistema para poder repetir datos para así prever la posibilidad de fallos que puedan surgir debido al desgaste normal del uso, ya sea del #[em hardware] o #[em software]. Este se presenta como solución a los problemas de protección y confiabilidad, o sea, vale decir que, la redundancia es un #[em Backup] o un respaldo.
           br
           br
-          |El #[em Backup] es un sistema de gran importancia porque, permite hacer una copia de seguridad y conservarla en una ubicación distinta a donde se encuentra la original y, esto se hace, para evitar pérdidas de la información. Los servidores suelen tener más de un disco duro y acostumbran a estar conectados mediante un RAID. 
+          |El #[em Backup] es un sistema de gran importancia porque, permite hacer una copia de seguridad y conservarla en una ubicación distinta a donde se encuentra la original y, esto se hace, para evitar pérdidas de la información. Los servidores suelen tener más de un disco duro y acostumbran a estar conectados mediante un RAID.
           br
           br
           |En la redundancia activa los enlaces están activos al tiempo y en la redundancia pasiva solo una parte está siempre en modo activo y la otra parte estará en modo de espera.
@@ -38,19 +38,19 @@
         p Ejemplo de disponibilidad con un SLA de 99.999 %, con este acuerdo el usuario final, puede esperar que el servicio no esté disponible dúrate los siguientes periodos de tiempo:
         br
         ul
-          li 
+          li
             i.fas.fa-check.color-icon-check
             |
             | Diario: 0.9 segundos
-          li 
+          li
             i.fas.fa-check.color-icon-check
             |
             | Semanal: 6.0 Segundos
-          li 
+          li
             i.fas.fa-check.color-icon-check
             |
             | Mensual: 26.3 segundos
-          li 
+          li
             i.fas.fa-check.color-icon-check
             |
             | Anual: 5 minutos y 15.6 segundos
@@ -58,21 +58,21 @@
           i software.
 
       .tarjeta.color-adicional-2.p-4(titulo='¿Qué comprenden?')
-      
+
         h4 Redundancia y alta disponibilidad
         p “El concepto de redundancia junto al de alta disponibilidad, es la capacidad que tiene un sistema para detectar posibles fallos de la manera más eficiente, esta tendrá la posibilidad de recuperarse del problema, afectando lo menos posible al servicio. La redundancia hace referencia a nodos completos que están replicados o componentes de estos, así como caminos y que una de sus funciones es utilizarlos en caso de que el sistema falle, es por esto que, la alta disponibilidad nos brinda la capacidad del sistema para brindar un servicio en ejecución en un tiempo estimado o a la capacidad de recuperación del mismo en caso de caerse la red, cuando se habla de la “caída de la red” se puede decir que hay situaciones que impliquen que la red deje de funcionar, ya sea un cable cortado o desconectado. En casos como estos hace falta que el sistema detecte la falla y que reacción de manera rápida y eficiente la búsqueda de la solución”, (Montoya, M. et al, 2020).
 
 
       .tarjeta.color-adicional-2.p-4(titulo='La alta disponibilidad')
         h4 ¿Cómo funciona?
-        p Este funciona en respuesta de una falla en la infraestructura, conceptualmente su funcionamiento es simple, este necesita de un 
-          em software 
+        p Este funciona en respuesta de una falla en la infraestructura, conceptualmente su funcionamiento es simple, este necesita de un
+          em software
           | y múltiples configuraciones por expertos en el tema.
-        p Se debe desarrollar configuraciones en sistemas que tienen procesos robustos, para así minimizar tiempos de inactividades; a menudo esta es una prioridad alta, ya que a pesar de que se tengan software y sistemas confiables se pueden tener problemas que puedan derribar la infraestructura tecnológica, es por esto, la importancia de la alta disponibilidad ya que debe permitir una estrategia fiable y así reducir los tiempos de fallos, los sistemas de alta disponibilidad pueden recuperarse de sus fallas en su infraestructura automáticamente. 
+        p Se debe desarrollar configuraciones en sistemas que tienen procesos robustos, para así minimizar tiempos de inactividades; a menudo esta es una prioridad alta, ya que a pesar de que se tengan software y sistemas confiables se pueden tener problemas que puedan derribar la infraestructura tecnológica, es por esto, la importancia de la alta disponibilidad ya que debe permitir una estrategia fiable y así reducir los tiempos de fallos, los sistemas de alta disponibilidad pueden recuperarse de sus fallas en su infraestructura automáticamente.
     .row.d-flex.justify-content-center.mb-5
       .col-lg-8
         .cajon.color-acento-contenido-2.p-4
-          p.mb-0 A continuación, se abordarán los elementos de alta disponibilidad; hay una serie de combinaciones de #[em software] para realizar cada tarea en una configuración de alta disponibilidad y es por esto por lo que el #[em software] sirve como solo una posible solución. 
+          p.mb-0 A continuación, se abordarán los elementos de alta disponibilidad; hay una serie de combinaciones de #[em software] para realizar cada tarea en una configuración de alta disponibilidad y es por esto por lo que el #[em software] sirve como solo una posible solución.
 
     p.mb-5 Se explica a continuación cada una de las piezas y componentes de la configuración de la alta disponibilidad.
 
@@ -91,7 +91,7 @@
               img(
                 src='@/assets/template/tema02/t2-i2.png',
                 alt='Texto que describa la imagen'
-              ) 
+              )
         .row
           .col-md-7.mb-4.mb-md-0
             h2 Bases de datos
@@ -105,7 +105,7 @@
               img(
                 src='@/assets/template/tema02/t2-i3.png',
                 alt='Texto que describa la imagen'
-              ) 
+              )
 
         .row
           .col-md-7.mb-4.mb-md-0
@@ -119,7 +119,7 @@
               img(
                 src='@/assets/template/tema02/t2-i4.png',
                 alt='Texto que describa la imagen'
-              ) 
+              )
         .row
           .col-md-7.mb-4.mb-md-0
             h2 Conmutación por error
@@ -136,7 +136,7 @@
               img(
                 src='@/assets/template/tema02/t2-i5.png',
                 alt='Texto que describa la imagen'
-              ) 
+              )
         .row
           .col-md-7.mb-4.mb-md-0
             h2 Balanceo de cargas
@@ -153,7 +153,7 @@
               img(
                 src='@/assets/template/tema02/t2-i6.png',
                 alt='Texto que describa la imagen'
-              ) 
+              )
 
     p.mb-5 Se presentan a continuación algunos interrogantes a tener en cuenta con relación a la configuración de la alta disponibilidad.
 
@@ -190,21 +190,21 @@
           )
             .col-12
               p Existen varios componentes que hay que tener en cuenta para implementar la alta disponibilidad a la hora de actuar, estos componentes son:
-              br 
+              br
               ul
-                li 
+                li
                   i.fas.fa-check.color-icon-check
                   | Medio ambiente: el tener todos los servidores en una misma área sería una mala idea, ya que una condición ambiental como un terremoto, inundaciones u otras, podrían destruir todo el sistema, lo ideal es tener servidores redundantes en diferentes centros de datos aumentara la confiabilidad.
-                li 
+                li
                   i.fas.fa-check.color-icon-check
                   | #[em Hardware:] los servidores deben ser resistentes a sobrecargas eléctricas, cortes de energías y fallos de #[em hardware]; esto incluye discos duros e interfaz de red.
-                li 
+                li
                   i.fas.fa-check.color-icon-check
                   | #[em Software:] todo sistema operativo, programas y la propia aplicación debe estar configurada para manejar fallos inesperados que podrían requerir un reinicio del sistema.
-                li 
+                li
                   i.fas.fa-check.color-icon-check
                   | Datos: uno de los factores más cruciales es la pérdida de datos y esta no se limita a fallos en el disco duro; los sistemas de alta disponibilidad deben tener en cuenta la seguridad de los datos, en caso tal que falle el sistema.
-                li 
+                li
                   i.fas.fa-check.color-icon-check
                   | Red: otro posible fallo son las interrupciones en la red, es importante que exista una red redundante para evitar posibles fallos.
 
@@ -235,7 +235,7 @@
           img.img400.m-auto(
             src='@/assets/template/tema02/t2-i7.png',
             alt='alt'
-          ) 
+          )
 
     h3.mb-5
       i.fas.fa-square.cac.me-3
@@ -256,7 +256,7 @@
             .cajon.color-acento-contenido-2.p-4
               p.mb-0 Es importante estudiar la alta disponibilidad en situaciones de recuperación ante fallos externos, de tipo ambiental, electrónico entre otros; así como suena, es un plan integral para la recuperación de operaciones y sistemas críticos después de eventos catastróficos.
           .col-lg-12
-            p En torno a lo anterior se debe hacer la siguiente pregunta, 
+            p En torno a lo anterior se debe hacer la siguiente pregunta,
               strong ¿por qué participar en este tipo de planificación?
             p Generalmente, se enfoca en volver a estar activos y funcionar, luego que haya ocurrido un evento catastrófico. Un plan de recuperación de desastres puede hacer frente a la pérdida de una región entera. (Abad. 2018)
       .col-lg-5.col-12
@@ -277,30 +277,30 @@
               .bloque-texto-g1__texto.p-4
                 h2 ¿Cómo implementar la arquitectura usando la alta disponibilidad?
 
-                p No importa el tipo de negocio o el tamaño de la empresa, cualquier tipo de tiempo de inactividad del servicio puede ser costoso sin una solución de recuperación ante desastres, en los últimos años, las soluciones de informática alojada y en la nube se han vuelto más populares que el soporte interno de soluciones, por tal razón reduce costos y adiciona la flexibilidad.
+                p No importa el tipo de negocio o el tamaño de la empresa, cualquier tipo de tiempo de inactividad del servicio puede ser costoso sin una solución de recuperación ante desastres, en los últimos años, las soluciones de informática alojada en la nube se han vuelto más populares que el soporte interno de soluciones, por tal razón reduce costos y adiciona la flexibilidad.
 
                 p Los beneficios de tener un sistema de alta disponibilidad son numerosos:
 
                 ul
-                  li 
+                  li
                     i.fas.fa-check.color-icon-check
                     |
                     | Ahorra tiempo y costos.
-                  
-                  li 
+
+                  li
                     i.fas.fa-check.color-icon-check
                     |
                     | Menos tiempo de inactividad, esto significa menos impacto en los usuarios y clientes.
-                  
-                  li 
+
+                  li
                     i.fas.fa-check.color-icon-check
                     |
                     | Se mejorará el rendimiento de aplicaciones.
 
-                  li 
+                  li
                     i.fas.fa-check.color-icon-check
                     |
-                    | Evitará multas y sanciones, si no se cumple con los SLA del contrato.   
+                    | Evitará multas y sanciones, si no se cumple con los SLA del contrato.
 
 
 </template>

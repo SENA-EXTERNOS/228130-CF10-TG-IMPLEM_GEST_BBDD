@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Pruebas de servicios de red 
+      h1 Pruebas de servicios de red
 
     p Es importante el desarrollo de pruebas a cada uno de los servicios de red, ya que estas darán la seguridad para el óptimo funcionamiento de la red, es por esto que, es necesario mirar cada una de las pruebas en los servicios (DNS, DNSSEC, DDNS, SMTP, POP3, POP3S), estos son de gran importancia en la utilización de la internet, ya que garantizan la eficiencia de los recursos en una red.
 
@@ -53,32 +53,32 @@
             p Los DNS los suministra la empresa que provee servicios de internet, pero también existen otros DNS alternativos de manera global y que en su mayoría funcionan de manera más eficiente, suelen tener ventajas como:
             br
             ul
-              li 
+              li
                 i.fas.fa-check.color-icon-check
                 |
                 | Fiabilidad.
               br
-              li 
+              li
                 i.fas.fa-check.color-icon-check
                 |
                 | Mejor seguridad.
               br
-              li 
+              li
                 i.fas.fa-check.color-icon-check
                 |
                 | Sin censura.
               br
-              li 
+              li
                 i.fas.fa-check.color-icon-check
                 |
                 | Acceso a contenido geo bloqueado.
               br
-              li 
+              li
                 i.fas.fa-check.color-icon-check
                 |
                 | Actualización de bases de datos DNS.
               br
-              li 
+              li
                 i.fas.fa-check.color-icon-check
                 |
                 | Mejor velocidad.
@@ -207,7 +207,7 @@
     .row.mb-4
       .col-md-6
         figure(data-aos='zoom-in')
-          img(src='@/assets/template/tema01/t1-i11.jpg') 
+          img(src='@/assets/template/tema01/t1-i11.jpg')
       .col-md-6
         p Es conocido como&nbsp;
           i Dynamic Domain Name System,&nbsp;
@@ -215,21 +215,21 @@
         p El&nbsp;
           i router&nbsp;
           | informa al servicio DDNS la dirección IP que le ha sido asignada por el proveedor de internet y este le relaciona el nombre definido en el DDNS, si por algún motivo la dirección cambia, el servicio DDNS obtiene una nueva dirección de forma automática, y responde a la petición DNS. (Philippe, 2010)
-        p 
+        p
         i DynDNS service&nbsp;
         | es uno de los más populares, el único requisito es crear una cuenta gratuita; este ofrece una versión sin ningún costo y otra paga, la primera permite crear tres dominios dinámicos gratis.
 
     .row.mb-5
       .col-md-8
-        p 
+        p
         strong No-IP&nbsp;
         | es otro servicio DynDNS ofrecido por una compañía de Estados Unidos que cuenta con un paquete sin costo, que permite crear tres nombres de dominio; el único inconveniente es que este servicio obligará a verificar la cuenta cada 30 días.
-        p 
+        p
         strong
           i Duck&nbsp;
           | DNS&nbsp;
         | este servicio DDNS permite cuidar mucho la privacidad, es capaz de guardar de forma segura todas las bases de datos DNS y es compatible con cualquier sistema operativo, además es compatible con cualquier #[em router] que cuente con la opción de DynDNS.
-        p 
+        p
         strong
           | DNS&nbsp;
           i Exit&nbsp;
@@ -316,7 +316,7 @@
             )
       .row(titulo='¿Qué puertos utiliza el SMTP?')
         .col-md-8.mb-4.mb-md-0
-          p En realidad, existen cuatro puertos que se utilizan comúnmente en el protocolo SMTP que son: 25, 587, 465, 2525; a continuación, se explicarán cada uno de los puertos: el puerto 25 se utiliza para la retransmisión SMTP y este es usado, generalmente, para enviar spam; el puerto 587 es el puerto por defecto en el SMTP moderno. 
+          p En realidad, existen cuatro puertos que se utilizan comúnmente en el protocolo SMTP que son: 25, 587, 465, 2525; a continuación, se explicarán cada uno de los puertos: el puerto 25 se utiliza para la retransmisión SMTP y este es usado, generalmente, para enviar spam; el puerto 587 es el puerto por defecto en el SMTP moderno.
             br
             br
             |El puerto 465 fue registrado para SMTPS, luego fue reasignado para un uso diferente y desaprobado; ahora bien, el puerto 2525 no es un puerto oficial, sin embargo, se usa popularmente como alternativa al puerto 587; la mayoría de proveedores de servicios de Internet y alojamiento en la nube admiten este puerto; si el puerto 587 está bloqueado, el puerto 2525 es una buena alternativa.
@@ -337,55 +337,55 @@
             )
       .row(titulo='¿Cómo funciona el protocolo SMTP?')
         .col-md-8.mb-4.mb-md-0
-          .row 
+          .row
             .col-lg-12
               p Para resolver la pregunta se revisará el siguiente ejercicio:
             .col-lg-6
               ul
-                li 
+                li
                   i.fas.fa-check.color-icon-check
                   |
                   | Servidor: 220 Servidor SMTP
-                li 
+                li
                   i.fas.fa-check.color-icon-check
                   |
                   | Cliente: HELO miequipo.midominio.com
-                li 
+                li
                   i.fas.fa-check.color-icon-check
                   |
                   | Servidor: 250&nbsp;
                   i Hello, please to meet you
-                li 
+                li
                   i.fas.fa-check.color-icon-check
                   |
                   | Cliente:&nbsp;
                   i MAIL FROM:&nbsp;
                   | &lt;yo@midominio.com&gt;
-                li 
+                li
                   i.fas.fa-check.color-icon-check
                   |
                   | Servidor: 250 Ok
-                li 
+                li
                   i.fas.fa-check.color-icon-check
                   |
                   | Cliente: RCPT TO: &lt;destinatario@sudominio.com&gt;
-                li 
+                li
                   i.fas.fa-check.color-icon-check
                   |
                   | Servidor: 250 Ok
-                li 
+                li
                   i.fas.fa-check.color-icon-check
                   |
                   | Cliente:&nbsp;
                   i DATA
-                li 
+                li
                   i.fas.fa-check.color-icon-check
                   |
                   | Servidor: 354&nbsp;
                   i End data with&nbsp;
                   | &lt;CR&gt;&lt;LF&gt;.&lt;CR&gt;&lt;LF&gt;
 
-                li 
+                li
                   i.fas.fa-check.color-icon-check
                   |
                   | Cliente:&nbsp;
@@ -393,39 +393,39 @@
                   | Campo de asunto
             .col-lg-6
               ul
-                li 
+                li
                   i.fas.fa-check.color-icon-check
                   |
                   | Cliente: From: yo@midominio.com
-                li 
+                li
                   i.fas.fa-check.color-icon-check
                   |
                   | Cliente:&nbsp;
                   i To:&nbsp;
                   | destinatario@sudominio.com
-                li 
+                li
                   i.fas.fa-check.color-icon-check
                   |
                   | Cliente: Hola
-                li 
+                li
                   i.fas.fa-check.color-icon-check
                   |
                   | Cliente: Esto es una prueba
-                li 
+                li
                   i.fas.fa-check.color-icon-check
                   |
                   | Cliente: Hasta luego
-                li 
+                li
                   i.fas.fa-check.color-icon-check
                   |
                   | Cliente: &lt;CR&gt;&lt;LF&gt;.&lt;CR&gt;&lt;LF&gt;
-                li 
+                li
                   i.fas.fa-check.color-icon-check
                   |
                   | Servidor: 250 Ok:&nbsp;
                   i queued as&nbsp;
                   | 12345
-                li 
+                li
                   i.fas.fa-check.color-icon-check
                   |
                   | Cliente:&nbsp;
@@ -465,23 +465,23 @@
             br
             br
             ul
-              li 
+              li
                 i.fas.fa-circle.color-icon-circle
                 |
                 | Nombre: escribir el nombre de preferencia el cual se verá cada vez que se envíe un correo electrónico desde esa cuenta.
-              li 
+              li
                 i.fas.fa-circle.color-icon-circle
                 |
                 | Dirección de correo electrónico: escribir una cuenta de correo electrónico que se encuentre disponible para su uso.
-              li 
+              li
                 i.fas.fa-circle.color-icon-circle
                 |
-                | Tipo de cuenta: seleccionamos protocolo POP3
-              li 
+                | Tipo de cuenta: seleccionamos protocolo POP3.
+              li
                 i.fas.fa-circle.color-icon-circle
                 |
                 | Servidor de correo de inicio: aquí colocar el protocolo POP.
-              li 
+              li
                 i.fas.fa-circle.color-icon-circle
                 |
                 | Servidor de correo saliente: escribir el nombre del servidor SMTP.

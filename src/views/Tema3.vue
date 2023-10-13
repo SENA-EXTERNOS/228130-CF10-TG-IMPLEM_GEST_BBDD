@@ -40,14 +40,14 @@
             )
       .row(titulo='¿Cómo se calcula MTTR?')
         .col-md-7.mb-4.mb-md-0
-          p Las variables que determinan el valor del MTTR son:        
+          p Las variables que determinan el valor del MTTR son:
           br
           ul
-            li 
+            li
               i.fas.fa-check.color-icon-check
               |
               | Cantidad de tiempo que ha demorado en resolver los fallos en los activos.
-            li 
+            li
               i.fas.fa-check.color-icon-check
               |
               | Cantidad de operaciones de mantenimiento.
@@ -75,15 +75,15 @@
             |Los valores generados desde el MTBF ayudan a detectar qué tipos de paradas son las que se generan con más frecuencia, este mide la disponibilidad de los equipos; a continuación, se conocerán las propiedades de los activos:
           br
           ul
-            li 
+            li
               i.fas.fa-check.color-icon-check
               |
               | El diseño y la construcción.
-            li 
+            li
               i.fas.fa-check.color-icon-check
               |
               | El desarrollo en la instalación.
-            li 
+            li
               i.fas.fa-check.color-icon-check
               |
               | Las operaciones de mantenimiento que se han realizado anteriormente.
@@ -99,15 +99,15 @@
           p Existen factores para determinar los valores del MTBF que son:
           br
           ul
-            li 
+            li
               i.fas.fa-check.color-icon-check
               |
               | El tiempo durante la disponibilidad.
-            li 
+            li
               i.fas.fa-check.color-icon-check
               |
               | La duración tras una avería.
-            li 
+            li
               i.fas.fa-check.color-icon-check
               |
               | Las veces que se ha paralizado el funcionamiento.
@@ -121,7 +121,7 @@
               src='@/assets/template/tema03/t3-i6.png',
               alt='Texto que describa la imagen'
             )
-      .row(titulo='Importancia de MMTR y MFBF')
+      .row(titulo='Importancia de MTTR y MTBF')
         .col-md-7.mb-4.mb-md-0
           p Ambos son indicadores de rendimiento y sugieren informaciones diferentes, pero igualmente relevantes, para un gestor de SAT (Servicios Avanzados de Tecnología); se podría decir que su análisis en conjunto, permite que las conclusiones sean muy completas. Ambas tienen en común que ponen de relieve los costos de mantenimiento durante un periodo de tiempo concreto, en la medida en la que dan datos sobre la frecuencia de las paradas y duración de los tiempos; desde otro punto de vista, el análisis en conjunto de las dos métricas, también permite a las organizaciones, realizar estimaciones precisas sobre la producción, porque tendrá información confiable de sus activos y sobre el tiempo que estos permanecerán en una situación de #[em Downtime.] (Montoya, M. 2020)
             br
@@ -143,27 +143,27 @@
       .row(titulo='Ventajas de implementar la medición del MTBF ')
         .col-md-7.mb-4.mb-md-0
           ul
-            li 
+            li
               i.fas.fa-check.color-icon-check
               |
               | Averiguar que equipos son menos fiables.
-            li 
+            li
               i.fas.fa-check.color-icon-check
               |
               | Conocer qué activos requieren un mayor mantenimiento.
-            li 
+            li
               i.fas.fa-check.color-icon-check
               |
               | Predicción operativa de instalaciones.
-            li 
+            li
               i.fas.fa-check.color-icon-check
               |
               | Reducción de paradas imprevistas.
-            li 
+            li
               i.fas.fa-check.color-icon-check
               |
               | Diseñar un plan de mantenimiento.
-            li 
+            li
               i.fas.fa-check.color-icon-check
               |
               | Ajustar procedimientos de mantenimientos.

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1524" height="379" viewBox="0 0 1524 379">
+  <g id="Grupo_146395" data-name="Grupo 146395" transform="translate(-38.333 -456.174)">
+    <g id="Grupo_146394" data-name="Grupo 146394">
+      <line id="Línea_327" data-name="Línea 327" y2="50" transform="translate(657.833 516.998)" fill="none" stroke="#707070" stroke-width="2"/>
+      <path id="Trazado_117905" data-name="Trazado 117905" d="M4742.21,1610.842H4407.044v50" transform="translate(-4084.21 -1043.844)" fill="none" stroke="#707070" stroke-width="2"/>
+      <path id="Trazado_117906" data-name="Trazado 117906" d="M4676.753,1610.842h504.562v50" transform="translate(-4017.981 -1043.844)" fill="none" stroke="#707070" stroke-width="2"/>
+      <path id="Trazado_203781" data-name="Trazado 203781" d="M4676.753,1610.842h284v50" transform="translate(-3513.419 -1043.844)" fill="none" stroke="#707070" stroke-width="2"/>
+      <g id="Grupo_137838" data-name="Grupo 137838" transform="translate(-124 83)">
+        <rect id="Rectángulo_296591" data-name="Rectángulo 296591" width="166" height="61" rx="5" transform="translate(699.333 373.174)" fill="#084a93"/>
+        <g id="Bases_de_datos" data-name="Bases de datos" transform="translate(-3875.981 -1118.518)" style="isolation: isolate">
+          <text id="Servicios_de_Red" data-name="Servicios de Red" transform="translate(4592.159 1527.342)" fill="#fff" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700" style="isolation: isolate"><tspan x="0" y="0">Servicios de Red</tspan></text>
+        </g>
+      </g>
+      <rect id="Rectángulo_296593" data-name="Rectángulo 296593" width="99" height="59" rx="5" transform="translate(273.333 617.174)" fill="#75e3d9"/>
+      <text id="Pruebas" transform="translate(293.313 652)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700" style="isolation: isolate"><tspan x="0" y="0">Pruebas</tspan></text>
+      <rect id="Rectángulo_296595" data-name="Rectángulo 296595" width="72" height="59" rx="5" transform="translate(38.333 776.174)" fill="#b9ddfc"/>
+      <text id="DNS" transform="translate(58.313 811)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700" style="isolation: isolate"><tspan x="0" y="0">DNS</tspan></text>
+      <rect id="Rectángulo_296597" data-name="Rectángulo 296597" width="111" height="59" rx="5" transform="translate(120.333 776.174)" fill="#b9ddfc"/>
+      <text id="DDNSSEC" transform="translate(140.313 811)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700" style="isolation: isolate"><tspan x="0" y="0">DDNSSEC</tspan></text>
+      <rect id="Rectángulo_296599" data-name="Rectángulo 296599" width="82" height="59" rx="5" transform="translate(241.333 776.174)" fill="#b9ddfc"/>
+      <text id="DDNS" transform="translate(261.313 811)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700" style="isolation: isolate"><tspan x="0" y="0">DDNS</tspan></text>
+      <rect id="Rectángulo_296601" data-name="Rectángulo 296601" width="82" height="59" rx="5" transform="translate(333.333 776.174)" fill="#b9ddfc"/>
+      <text id="SMTP" transform="translate(353.313 811)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700" style="isolation: isolate"><tspan x="0" y="0">SMTP</tspan></text>
+      <rect id="Rectángulo_296603" data-name="Rectángulo 296603" width="82" height="59" rx="5" transform="translate(425.333 776.174)" fill="#b9ddfc"/>
+      <text id="POP3" transform="translate(445.313 811)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700" style="isolation: isolate"><tspan x="0" y="0">POP3</tspan></text>
+      <rect id="Rectángulo_296605" data-name="Rectángulo 296605" width="90" height="59" rx="5" transform="translate(517.333 776.174)" fill="#b9ddfc"/>
+      <text id="POP3S" transform="translate(537.313 811)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700" style="isolation: isolate"><tspan x="0" y="0">POP3S</tspan></text>
+      <rect id="Rectángulo_296593-2" data-name="Rectángulo 296593" width="282" height="59" rx="5" transform="translate(426.333 617.174)" fill="#75e3d9"/>
+      <text id="Redundancia_y_alta_disponibilidad" data-name="Redundancia y alta disponibilidad" transform="translate(446.313 652)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700" style="isolation: isolate"><tspan x="0" y="0">Redundancia y alta disponibilidad</tspan></text>
+      <rect id="Rectángulo_296606" data-name="Rectángulo 296606" width="230" height="59" rx="5" transform="translate(763.333 617.174)" fill="#75e3d9"/>
+      <text id="Cálculo_de_nivel_de_servicio" data-name="Cálculo de nivel de servicio" transform="translate(783.313 652)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700" style="isolation: isolate"><tspan x="0" y="0">Cálculo de nivel de servicio</tspan></text>
+      <rect id="Rectángulo_296608" data-name="Rectángulo 296608" width="230" height="59" rx="5" transform="translate(1048.333 617.174)" fill="#75e3d9"/>
+      <rect id="Rectángulo_296847" data-name="Rectángulo 296847" width="230" height="59" rx="5" transform="translate(1332.333 617.174)" fill="#75e3d9"/>
+      <text id="Mantenimiento_preventivo" data-name="Mantenimiento preventivo" transform="translate(1068.313 652)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700" style="isolation: isolate"><tspan x="0" y="0">Mantenimiento preventivo</tspan></text>
+      <text id="Identificación_de_fallas" data-name="Identificación de fallas" transform="translate(1365.833 652)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700" style="isolation: isolate"><tspan x="0" y="0">Identificación de fallas</tspan></text>
+      <rect id="Rectángulo_296610" data-name="Rectángulo 296610" width="82" height="59" rx="5" transform="translate(763.333 776.174)" fill="#00defc"/>
+      <text id="MTTR" transform="translate(783.313 811)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700" style="isolation: isolate"><tspan x="0" y="0">MTTR</tspan></text>
+      <rect id="Rectángulo_296612" data-name="Rectángulo 296612" width="82" height="59" rx="5" transform="translate(911.333 776.174)" fill="#00defc"/>
+      <text id="MTBF" transform="translate(931.313 811)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700" style="isolation: isolate"><tspan x="0" y="0">MTBF</tspan></text>
+      <line id="Línea_347" data-name="Línea 347" y2="50" transform="translate(567.333 566.998)" fill="none" stroke="#707070" stroke-width="2"/>
+      <line id="Línea_348" data-name="Línea 348" y2="50" transform="translate(878.313 566.998)" fill="none" stroke="#707070" stroke-width="2"/>
+      <line id="Línea_349" data-name="Línea 349" y2="50" transform="translate(878.333 676.174)" fill="none" stroke="#707070" stroke-width="2"/>
+      <line id="Línea_350" data-name="Línea 350" y2="50" transform="translate(322.833 676.174)" fill="none" stroke="#707070" stroke-width="2"/>
+      <path id="Trazado_202403" data-name="Trazado 202403" d="M4407.044,1660.842v-50h488v51.173" transform="translate(-4332.71 -884.492)" fill="none" stroke="#707070" stroke-width="2"/>
+      <path id="Trazado_203780" data-name="Trazado 203780" d="M4407.044,1660.842v-50h147.019v51.173" transform="translate(-3601.729 -884.492)" fill="none" stroke="#707070" stroke-width="2"/>
+      <line id="Línea_351" data-name="Línea 351" y2="50" transform="translate(466.333 726.174)" fill="none" stroke="#707070" stroke-width="2"/>
+      <line id="Línea_352" data-name="Línea 352" y2="50" transform="translate(374.333 726.174)" fill="none" stroke="#707070" stroke-width="2"/>
+      <line id="Línea_353" data-name="Línea 353" y2="50" transform="translate(282.333 726.174)" fill="none" stroke="#707070" stroke-width="2"/>
+      <line id="Línea_354" data-name="Línea 354" y2="50" transform="translate(176.333 726.174)" fill="none" stroke="#707070" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

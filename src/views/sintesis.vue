@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src='@/assets/template/sintesis/s-1.png', alt='alt')
+          img(src='@/assets/template/sintesis/s-1.svg', alt='alt')
       .col-lg-3
         a.anexo.mb-4(
           :href='obtenerLink("/downloads/sintesis.pdf")',

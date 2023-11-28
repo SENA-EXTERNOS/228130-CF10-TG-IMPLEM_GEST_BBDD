@@ -31,7 +31,7 @@
         h4 Redundancia geográfica
         p Este respaldo proporciona servicios de redundancia geográfica de modo que, en caso de una falla completa del centro de datos, la información sea desviada a otros servidores ubicados en otra parte del mundo; así que cuando ocurran desastres naturales que afecten a un área o región, habrá otro respaldo disponible en otra ubicación, listo para funcionar. (Abad, 2013)
 
-      .tarjeta.color-adicional-2.p-4(titulo='¿Qué es la disponibilidad?')
+      .tarjeta.color-adicional-2.p-4(titulo='¿Qué es la <br>disponibilidad?')
 
         h4 Disponibilidad
         p Es la capacidad de un sistema o componente del sistema para estar operando durante un periodo largo, es decir que no tenga fallos, esta se mide de 0 % al 100 %, aunque es muy complicado lograr el 100 % de disponibilidad; el operador de conectividad en la nube si puede alcanzar lo que se conoce como disponibilidad de “cinco 9 s” es decir, alcanzar el 99.999 % de disponibilidad. Se debe identificar en el acuerdo de SLA a que estándar de 9 s se adhiere el proveedor de conectividad.
